@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 0,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Untitled_32scene",
-  "name": "Untitled scene",
-  "r": 209,
+  "mangledName": "Chamber_321",
+  "name": "Chamber 1",
+  "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 0,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6897782140104511,
+    "zoomFactor": 0.7370816317994054,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -51,7 +51,7 @@
       "persistentUuid": "6bc778fe-45f4-43af-9917-847218d6d5cd",
       "width": 0,
       "x": 5,
-      "y": 11,
+      "y": 10,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -67,8 +67,8 @@
       "name": "Health_Bar",
       "persistentUuid": "be279ad3-780c-4bc4-a75a-8db469a0dd01",
       "width": 230,
-      "x": 79,
-      "y": 42,
+      "x": 82,
+      "y": 40,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -84,7 +84,7 @@
       "persistentUuid": "3aed4c5b-aa1b-49cc-a29d-00fc8ae162e4",
       "width": 0,
       "x": 5,
-      "y": 36,
+      "y": 35,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -100,8 +100,8 @@
       "persistentUuid": "ee177a00-d58a-4552-a238-bdf20a348fd5",
       "width": 0,
       "x": 5,
-      "y": 63,
-      "zOrder": 11,
+      "y": 60,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -116,7 +116,7 @@
       "persistentUuid": "813cd9ec-baf2-4c2f-991e-97316e1e2e6a",
       "width": 0,
       "x": 5,
-      "y": 90,
+      "y": 85,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -148,41 +148,9 @@
       "name": "Equipped_Powerup",
       "persistentUuid": "f7724462-372e-480f-8205-c7c9dd4c6e04",
       "width": 0,
-      "x": 1086,
-      "y": 13,
+      "x": 5,
+      "y": 540,
       "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Test_for_powerups",
-      "persistentUuid": "2d6cd767-c63f-4922-bc1d-6732c4968821",
-      "width": 0,
-      "x": 7,
-      "y": 257,
-      "zOrder": 26,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "None",
-      "persistentUuid": "242c166c-9f6e-4a2c-89f9-19d232b6a093",
-      "width": 0,
-      "x": 1138,
-      "y": 46,
-      "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -197,7 +165,7 @@
       "persistentUuid": "06ac2f57-4b44-4f68-9210-938b229c70dd",
       "width": 0,
       "x": 5,
-      "y": 117,
+      "y": 110,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -213,7 +181,7 @@
       "persistentUuid": "4f0c2e72-2dd2-4f02-90c9-adb93c039b60",
       "width": 0,
       "x": 5,
-      "y": 142,
+      "y": 135,
       "zOrder": 34,
       "numberProperties": [],
       "stringProperties": [],
@@ -229,7 +197,7 @@
       "persistentUuid": "9d1c06de-5415-4a36-a23c-ccc3b164ab19",
       "width": 0,
       "x": 5,
-      "y": 170,
+      "y": 160,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -307,57 +275,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 65,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Slapper",
-      "persistentUuid": "e87b5970-4bd1-4075-b538-625536579749",
-      "width": 66,
-      "x": 641,
-      "y": 176,
-      "zOrder": 45,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 68,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Sploder",
-      "persistentUuid": "fd753c13-0d13-44b7-8d9b-1f965cf10800",
-      "width": 66,
-      "x": 1118,
-      "y": 588,
-      "zOrder": 46,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 82,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Shooter",
-      "persistentUuid": "257b96db-cdbc-4630-a0e3-7471618b2784",
-      "width": 80,
-      "x": 1055,
-      "y": 391,
-      "zOrder": 47,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 75,
       "keepRatio": true,
       "layer": "",
@@ -398,7 +315,7 @@
       "persistentUuid": "23652109-6c8f-41ff-8d68-fc9783bac0fa",
       "width": 0,
       "x": 5,
-      "y": 195,
+      "y": 185,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -431,60 +348,9 @@
       "name": "The_Nuclear_Option",
       "persistentUuid": "daa12942-54b2-45b9-8928-76fbf65726e7",
       "width": 65,
-      "x": 422,
-      "y": 136,
+      "x": 455,
+      "y": 146,
       "zOrder": 52,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 66,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Slapper",
-      "persistentUuid": "702adf25-eb46-48ca-8ab9-c9bd7f25bd50",
-      "width": 68,
-      "x": 402,
-      "y": 28,
-      "zOrder": 54,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 67,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Sploder",
-      "persistentUuid": "044a3413-41d4-47ed-8236-6a3cd7790aa6",
-      "width": 66,
-      "x": 925,
-      "y": 330,
-      "zOrder": 55,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 79,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Shooter",
-      "persistentUuid": "57120793-569e-4b20-9566-025092980af1",
-      "width": 80,
-      "x": 1102,
-      "y": 274,
-      "zOrder": 56,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -499,7 +365,7 @@
       "persistentUuid": "e51ba5fd-853f-486e-ac7e-17bb8ef30025",
       "width": 0,
       "x": 5,
-      "y": 218,
+      "y": 210,
       "zOrder": 57,
       "numberProperties": [],
       "stringProperties": [],
@@ -509,48 +375,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obstacleTileSprite",
-      "persistentUuid": "3035ba20-5200-4937-85ce-8c7301550d1c",
-      "width": 192,
-      "x": 830,
-      "y": 576,
-      "zOrder": 65,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obstacleTileSprite",
-      "persistentUuid": "91771c0e-6478-4a78-a671-9055753a9f1a",
-      "width": 128,
-      "x": 894,
-      "y": 513,
-      "zOrder": 66,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 720,
+      "height": 1294,
       "keepRatio": true,
       "layer": "",
       "name": "floorTileSprite",
       "persistentUuid": "24231653-3dd0-443b-812a-4b7040fce9d0",
-      "width": 1281,
-      "x": -2,
-      "y": 0,
+      "width": 2056,
+      "x": -714,
+      "y": -513,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -558,17 +390,32 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
-      "layer": "",
-      "name": "obstacleTileSprite",
-      "persistentUuid": "242512c1-2549-402f-920e-ea447218b328",
-      "width": 320,
-      "x": 702,
-      "y": 64,
-      "zOrder": 65,
+      "layer": "UI",
+      "name": "None",
+      "persistentUuid": "2ec89fcc-332d-484f-875e-b5d41989cd5f",
+      "width": 0,
+      "x": 75,
+      "y": 575,
+      "zOrder": 68,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Coin_count",
+      "persistentUuid": "46804df6-4c2a-4174-a5c8-ed12eab18ea9",
+      "width": 0,
+      "x": 200,
+      "y": 10,
+      "zOrder": 69,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -576,135 +423,64 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 64,
+      "depth": 0,
+      "height": 100,
       "keepRatio": true,
       "layer": "",
-      "name": "obstacleTileSprite",
-      "persistentUuid": "d2bd1249-86ac-4ba1-bfbc-be51d6a92c6a",
-      "width": 256,
-      "x": 830,
-      "y": 128,
-      "zOrder": 66,
+      "name": "Luck",
+      "persistentUuid": "528aab08-35b1-4b9c-a0e6-9f29860c1642",
+      "width": 100,
+      "x": 631,
+      "y": 269,
+      "zOrder": 70,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "obstacleTileSprite",
-      "persistentUuid": "1e499758-e936-4073-bc8f-03c1c05beca9",
-      "width": 128,
-      "x": 894,
-      "y": 191,
-      "zOrder": 66,
+      "name": "Power_up_active_state",
+      "persistentUuid": "8f78a0d0-4ca1-4d63-927f-3896772b07a7",
+      "width": 0,
+      "x": 4,
+      "y": 235,
+      "zOrder": 71,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "obstacleTileSprite",
-      "persistentUuid": "04169d94-5a41-4cf3-9028-bf9aa4da4959",
-      "width": 320,
-      "x": 62,
-      "y": 576,
-      "zOrder": 65,
+      "name": "Bounce",
+      "persistentUuid": "32f61f81-5250-438a-9ade-656fd16091b8",
+      "width": 0,
+      "x": 896,
+      "y": 342,
+      "zOrder": 72,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
-      "layer": "",
-      "name": "obstacleTileSprite",
-      "persistentUuid": "9f3c26eb-6872-4ca8-b9af-14fea33bf30b",
-      "width": 192,
-      "x": 127,
-      "y": 512,
-      "zOrder": 65,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obstacleTileSprite",
-      "persistentUuid": "0f7cad0f-bf8d-47f9-ba0d-16b0902073d5",
-      "width": 128,
-      "x": 127,
-      "y": 448,
-      "zOrder": 66,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obstacleTileSprite",
-      "persistentUuid": "f05dc66b-da83-42b0-8d87-6517ed60663b",
-      "width": 192,
-      "x": 190,
-      "y": 128,
-      "zOrder": 65,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obstacleTileSprite",
-      "persistentUuid": "f1726d6e-51b2-4a33-a95b-874cc4737949",
-      "width": 256,
-      "x": 126,
-      "y": 192,
-      "zOrder": 66,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obstacleTileSprite",
-      "persistentUuid": "e1e4aa0b-b87a-4aa3-b97d-8cabcd0dd739",
-      "width": 128,
-      "x": 190,
-      "y": 256,
-      "zOrder": 66,
+      "layer": "UI",
+      "name": "Test_for_powerups",
+      "persistentUuid": "c4cec71d-64d5-4240-86ab-9d1f752cb71f",
+      "width": 0,
+      "x": 4,
+      "y": 269,
+      "zOrder": 73,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -755,25 +531,45 @@
     },
     {
       "assetStoreId": "",
-      "height": 64,
-      "name": "floorTileSprite",
-      "texture": "assets\\floortile.png2",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 64,
+      "bold": false,
+      "italic": false,
+      "name": "Power_up_active_state",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 64,
-      "name": "obstacleTileSprite",
-      "texture": "assets\\obstaclewalltile.png2",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 64,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
+      "behaviors": [],
+      "string": "Text",
+      "font": "assets\\Kenney Mini Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "assets\\Kenney Mini Square.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -783,10 +579,7 @@
         "objectName": "Test_for_powerups"
       },
       {
-        "objectName": "floorTileSprite"
-      },
-      {
-        "objectName": "obstacleTileSprite"
+        "objectName": "Power_up_active_state"
       }
     ]
   },
@@ -871,6 +664,22 @@
             },
             {
               "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "The_Nuclear_Option_Cooldown"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Power_up_active_state"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -941,222 +750,12 @@
             },
             {
               "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups[\"Fast Shoot\"][\"has fast shoot\"]",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups[\"Fast Shoot\"][\"Fast Shoot overclocking\"]",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups[\"Fast Shoot\"][\"fast shoot overclocked\"]",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups[\"Bounce\"][\"has bounce\"]",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.Bounce[\"Bounce overclocked\"]",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.Bounce[\"Bounce overclocking\"]",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Power_ups.Bounce.times_bounced_allowed",
-                "=",
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.Dash.Has_dash",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.Dash[\"Dash overclocked\"]",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.Dash[\"Dash overclocking\"]",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "Power_ups.Dash.dash_cooldown_time",
                 "=",
                 "5"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups[\"Freeze Time\"][\"has freeze time\"]",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups[\"Freeze Time\"][\"Freeze time overclocked\"]",
-                "False",
-                "5"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups[\"Freeze Time\"][\"freeze time overclocking\"]",
-                "False",
-                "5"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups[\"Freeze Time\"][\"freeze time active\"]",
-                "False",
-                "5"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups[\"Freeze Time\"][\"freeze time available\"]",
-                "True",
-                "5"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Power_ups[\"Freeze Time\"][\"freeze time duration\"]",
-                "=",
-                "10"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.Bomb.has_bomb",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.Bomb[\"bomb overclocked\"]",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Power_ups.Bomb.bomb_cooldown_time",
-                "=",
-                "20"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.Bomb[\"bomb overclocking\"]",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.XLR8.has_xlr8",
-                "False",
-                ""
               ]
             },
             {
@@ -1171,86 +770,6 @@
             },
             {
               "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.XLR8.xlr8_overclocked",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.XLR8.xlr8_overclocking",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.Bullet_Damage.Has_Bullet_Damage",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.Bullet_Damage.Bullet_Damage_Overclocked",
-                "False",
-                "5"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.Bullet_Damage.Bullet_Damage_Overclocking",
-                "False",
-                "5"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.Bullet_Damage.Bullet_Damage_Active",
-                "False",
-                "5"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.Bullet_Damage.Bullet_Damage_Available",
-                "True",
-                "5"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Power_ups.Bullet_Damage.Bullet_Damage_Duration",
-                "=",
-                "10"
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -1261,81 +780,23 @@
             },
             {
               "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.Multishot.has_multishot",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.Multishot.multishot_overclocked",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.Multishot.multishot_overclocking",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.The_Nuclear_Option.Has_Nuclear_option",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.The_Nuclear_Option.Nuclear_option_overclocked",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.The_Nuclear_Option.Nuclear_option_overclocking",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "Power_ups.The_Nuclear_Option.Nuclear_option_cooldown_timer",
+                "Power_ups.Luck.luck_multiplier",
                 "=",
-                "20"
+                "0"
               ]
             },
             {
               "type": {
-                "value": "SetBooleanVariable"
+                "value": "Health::Health::SetChanceToDodgeOp"
               },
               "parameters": [
-                "Power_ups.The_Nuclear_Option.Nuclear_option_available",
-                "True",
+                "Player",
+                "Health",
+                "=",
+                "0.3 * Power_ups.Luck.luck_multiplier",
                 ""
               ]
             },
@@ -1357,6 +818,123 @@
                 "obstacleTileSprite",
                 "=",
                 "-9"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "The one right below this isn't universal, it only occurs on this intro module and should, therefore, not be copied across all versions\n"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushString"
+              },
+              "parameters": [
+                "power_ups_unequipped",
+                "\"Bounce\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushString"
+              },
+              "parameters": [
+                "power_ups_unequipped",
+                "\"Bullet Speed\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushString"
+              },
+              "parameters": [
+                "power_ups_unequipped",
+                "\"Dash\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushString"
+              },
+              "parameters": [
+                "power_ups_unequipped",
+                "\"Freeze Time\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushString"
+              },
+              "parameters": [
+                "power_ups_unequipped",
+                "\"Bomb\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushString"
+              },
+              "parameters": [
+                "power_ups_unequipped",
+                "\"XLR8\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushString"
+              },
+              "parameters": [
+                "power_ups_unequipped",
+                "\"Bullet Damage\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushString"
+              },
+              "parameters": [
+                "power_ups_unequipped",
+                "\"Multishot\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushString"
+              },
+              "parameters": [
+                "power_ups_unequipped",
+                "\"The Nuclear Option\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushString"
+              },
+              "parameters": [
+                "power_ups_unequipped",
+                "\"Luck\""
               ]
             }
           ]
@@ -1425,17 +1003,6 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Test_for_powerups",
-                "Text",
-                "=",
-                "Power_ups_grabbed[power_up_index] + \", \" + power_up_index + \", \" + ToString(VariableChildCount(Power_ups_grabbed)) + \", \" + Power_ups.The_Nuclear_Option. Nuclear_option_cooldown + \", \" + Power_ups.The_Nuclear_Option. Nuclear_option_cooldown_timer+ \", \" + Power_ups.The_Nuclear_Option.  Nuclear_option_available + \", \" + power_up_activated"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
                 "Dash_cooldown",
                 "Text",
                 "=",
@@ -1490,7 +1057,7 @@
                 "Bomb_cooldown",
                 "Text",
                 "=",
-                "\"Bomb cooldown: \" + Power_ups.Bomb[\"bomb timer\"]"
+                "\"Zip-Bomb cooldown: \" + Power_ups.Bomb[\"bomb timer\"]"
               ]
             },
             {
@@ -1521,6 +1088,39 @@
                 "Power_ups.The_Nuclear_Option.Nuclear_option_cooldown",
                 "=",
                 "Power_ups.The_Nuclear_Option.Nuclear_option_cooldown_timer - trunc((TimerElapsedTime(\"nuclear option cooldown timer\")))"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "The_Nuclear_Option_Cooldown",
+                "Text",
+                "=",
+                "\"System Wipe Cooldown: \" + Power_ups.The_Nuclear_Option.Nuclear_option_cooldown"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Coin_count",
+                "Text",
+                "=",
+                "\"Coins:\" + Coins"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Test_for_powerups",
+                "Text",
+                "=",
+                "power_ups_unequipped[power_up_index]"
               ]
             }
           ],
@@ -1567,7 +1167,7 @@
                     "Upload_Timer",
                     "Text",
                     "=",
-                    "\"Bounce Patch Upload: \" + ToString(upload_timer)"
+                    "\"Ball of Rubberbanding Upload: \" + ToString(upload_timer)"
                   ]
                 },
                 {
@@ -1696,7 +1296,7 @@
                     "Upload_Timer",
                     "Text",
                     "=",
-                    "\"Bullet Speed Patch Upload: \" + ToString(upload_timer)"
+                    "\"Railgun Barrel Upload: \" + ToString(upload_timer)"
                   ]
                 },
                 {
@@ -1825,7 +1425,7 @@
                     "Upload_Timer",
                     "Text",
                     "=",
-                    "\"Dash Patch Upload: \" + ToString(upload_timer)"
+                    "\"Battering RAM Upload: \" + ToString(upload_timer)"
                   ]
                 },
                 {
@@ -1954,7 +1554,7 @@
                     "Upload_Timer",
                     "Text",
                     "=",
-                    "\"Freeze Time Patch Upload: \" + ToString(upload_timer)"
+                    "\"Subzero coolant Upload: \" + ToString(upload_timer)"
                   ]
                 },
                 {
@@ -2064,7 +1664,7 @@
                     "freeze_time_cooldown",
                     "Text",
                     "=",
-                    "\"Freeze time duration: \" + Power_ups[\"Freeze Time\"][\"freeze time duration timer\"]"
+                    "\"Subzero coolant Duration: \" + Power_ups[\"Freeze Time\"][\"freeze time duration timer\"]"
                   ]
                 }
               ]
@@ -2092,7 +1692,7 @@
                     "freeze_time_cooldown",
                     "Text",
                     "=",
-                    "\"Freeze time cooldown: \" + Power_ups[\"Freeze Time\"][\"freeze time cooldown\"]"
+                    "\"Subzero coolant Cooldown: \" + Power_ups[\"Freeze Time\"][\"freeze time cooldown\"]"
                   ]
                 }
               ]
@@ -2139,7 +1739,7 @@
                     "Upload_Timer",
                     "Text",
                     "=",
-                    "\"Bomb Patch Upload: \" + ToString(upload_timer)"
+                    "\"Zip-bomb Upload: \" + ToString(upload_timer)"
                   ]
                 },
                 {
@@ -2268,7 +1868,7 @@
                     "Upload_Timer",
                     "Text",
                     "=",
-                    "\"XLR8 Patch Upload: \" + ToString(upload_timer)"
+                    "\"Javasprint Upload: \" + ToString(upload_timer)"
                   ]
                 },
                 {
@@ -2397,7 +1997,7 @@
                     "Upload_Timer",
                     "Text",
                     "=",
-                    "\"Increased Bullet Damage Patch Upload: \" + ToString(upload_timer)"
+                    "\"Executabullet Upload: \" + ToString(upload_timer)"
                   ]
                 },
                 {
@@ -2582,7 +2182,7 @@
                     "Upload_Timer",
                     "Text",
                     "=",
-                    "\"Multishot Patch Upload: \" + ToString(upload_timer)"
+                    "\"Multithreader Upload: \" + ToString(upload_timer)"
                   ]
                 },
                 {
@@ -2711,7 +2311,7 @@
                     "Upload_Timer",
                     "Text",
                     "=",
-                    "\"The Nuclear Option Patch Upload: \" + ToString(upload_timer)"
+                    "\"System Wipe Upload: \" + ToString(upload_timer)"
                   ]
                 },
                 {
@@ -2803,25 +2403,126 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "NumberVariable"
+                    "value": "Layer"
                   },
                   "parameters": [
-                    "Power_ups.The_Nuclear_Option.Nuclear_option_cooldown",
-                    ">=",
-                    "0"
+                    "Luck",
+                    "\"UI\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "Power_ups_grabbed[power_up_index]",
+                    "=",
+                    "\"Luck\""
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "upload_timer",
+                    "=",
+                    "60 - trunc((TimerElapsedTime(\"Luck timer\") * Timer_Scale))"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
-                    "The_Nuclear_Option_Cooldown",
+                    "Upload_Timer",
                     "Text",
                     "=",
-                    "\"The Nuclear Option Cooldown: \" + Power_ups.The_Nuclear_Option.Nuclear_option_cooldown"
+                    "\"5-Leafed-Clover Upload: \" + ToString(upload_timer)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Luck",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Power_ups.Luck.luck_overclocking",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Timer_Scale",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "overclocked_",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Power_ups.Luck.luck_overclocking",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Timer_Scale",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "overclocked_"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -3350,7 +3051,107 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player",
+                "obstacleTileSprite",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Coin",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Coins",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Coin",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Health_drop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Heal"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Health_drop",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -3385,7 +3186,7 @@
                 "value": "VariableChildExists2"
               },
               "parameters": [
-                "Power_ups_grabbed",
+                "power_ups_unequipped",
                 "\"Bounce\""
               ]
             },
@@ -3422,8 +3223,8 @@
               "parameters": [
                 "",
                 "Bounce",
-                "1150",
-                "50",
+                "75",
+                "575",
                 "\"UI\""
               ]
             },
@@ -3462,6 +3263,46 @@
                 "",
                 "\"bounce timer\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups[\"Bounce\"][\"has bounce\"]",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.Bounce[\"Bounce overclocked\"]",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.Bounce[\"Bounce overclocking\"]",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Power_ups.Bounce.times_bounced_allowed",
+                "=",
+                "3"
+              ]
             }
           ]
         },
@@ -3478,16 +3319,6 @@
                 "",
                 "",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VariableChildExists2"
-              },
-              "parameters": [
-                "Power_ups_grabbed",
-                "\"Bullet Speed\""
               ]
             },
             {
@@ -3523,8 +3354,8 @@
               "parameters": [
                 "",
                 "Fast_shoot",
-                "1150",
-                "50",
+                "75",
+                "575",
                 "\"UI\""
               ]
             },
@@ -3563,6 +3394,36 @@
                 "",
                 "\"bullet speed timer\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups[\"Fast Shoot\"][\"has fast shoot\"]",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups[\"Fast Shoot\"][\"Fast Shoot overclocking\"]",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups[\"Fast Shoot\"][\"fast shoot overclocked\"]",
+                "False",
+                ""
+              ]
             }
           ]
         },
@@ -3579,16 +3440,6 @@
                 "",
                 "",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VariableChildExists2"
-              },
-              "parameters": [
-                "Power_ups_grabbed",
-                "\"Dash\""
               ]
             },
             {
@@ -3624,8 +3475,8 @@
               "parameters": [
                 "",
                 "Dash",
-                "1150",
-                "50",
+                "75",
+                "575",
                 "\"UI\""
               ]
             },
@@ -3664,6 +3515,36 @@
                 "",
                 "\"dash timer\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.Dash.Has_dash",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.Dash[\"Dash overclocked\"]",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.Dash[\"Dash overclocking\"]",
+                "False",
+                ""
+              ]
             }
           ]
         },
@@ -3680,16 +3561,6 @@
                 "",
                 "",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VariableChildExists2"
-              },
-              "parameters": [
-                "Power_ups_grabbed",
-                "\"Freeze Time\""
               ]
             },
             {
@@ -3725,8 +3596,8 @@
               "parameters": [
                 "",
                 "Freeze_Time",
-                "1150",
-                "50",
+                "75",
+                "575",
                 "\"UI\""
               ]
             },
@@ -3765,6 +3636,66 @@
                 "",
                 "\"freeze time timer\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups[\"Freeze Time\"][\"has freeze time\"]",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups[\"Freeze Time\"][\"Freeze time overclocked\"]",
+                "False",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups[\"Freeze Time\"][\"freeze time overclocking\"]",
+                "False",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups[\"Freeze Time\"][\"freeze time active\"]",
+                "False",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups[\"Freeze Time\"][\"freeze time available\"]",
+                "True",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Power_ups[\"Freeze Time\"][\"freeze time duration\"]",
+                "=",
+                "10"
+              ]
             }
           ]
         },
@@ -3781,16 +3712,6 @@
                 "",
                 "",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VariableChildExists2"
-              },
-              "parameters": [
-                "Power_ups_grabbed",
-                "\"Bomb\""
               ]
             },
             {
@@ -3826,8 +3747,8 @@
               "parameters": [
                 "",
                 "Bomb_powerup",
-                "1150",
-                "50",
+                "75",
+                "575",
                 "\"UI\""
               ]
             },
@@ -3866,6 +3787,46 @@
                 "",
                 "\"bomb timer\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.Bomb.has_bomb",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.Bomb[\"bomb overclocked\"]",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Power_ups.Bomb.bomb_cooldown_time",
+                "=",
+                "20"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.Bomb[\"bomb overclocking\"]",
+                "False",
+                ""
+              ]
             }
           ]
         },
@@ -3882,16 +3843,6 @@
                 "",
                 "",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VariableChildExists2"
-              },
-              "parameters": [
-                "Power_ups_grabbed",
-                "\"XLR8\""
               ]
             },
             {
@@ -3927,8 +3878,8 @@
               "parameters": [
                 "",
                 "xlr8",
-                "1150",
-                "50",
+                "75",
+                "575",
                 "\"UI\""
               ]
             },
@@ -3967,6 +3918,36 @@
                 "",
                 "\"XLR8 timer\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.XLR8.has_xlr8",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.XLR8.xlr8_overclocked",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.XLR8.xlr8_overclocking",
+                "False",
+                ""
+              ]
             }
           ]
         },
@@ -3983,16 +3964,6 @@
                 "",
                 "",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VariableChildExists2"
-              },
-              "parameters": [
-                "Power_ups_grabbed",
-                "\"Bullet Damage\""
               ]
             },
             {
@@ -4028,8 +3999,8 @@
               "parameters": [
                 "",
                 "Bullet_Damage",
-                "1150",
-                "50",
+                "75",
+                "575",
                 "\"UI\""
               ]
             },
@@ -4068,6 +4039,66 @@
                 "",
                 "\"Bullet Damage Timer\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.Bullet_Damage.Has_Bullet_Damage",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.Bullet_Damage.Bullet_Damage_Overclocked",
+                "False",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.Bullet_Damage.Bullet_Damage_Overclocking",
+                "False",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.Bullet_Damage.Bullet_Damage_Active",
+                "False",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.Bullet_Damage.Bullet_Damage_Available",
+                "True",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Power_ups.Bullet_Damage.Bullet_Damage_Duration",
+                "=",
+                "10"
+              ]
             }
           ]
         },
@@ -4084,16 +4115,6 @@
                 "",
                 "",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VariableChildExists2"
-              },
-              "parameters": [
-                "Power_ups_grabbed",
-                "\"Multishot\""
               ]
             },
             {
@@ -4129,8 +4150,8 @@
               "parameters": [
                 "",
                 "Multishot",
-                "1150",
-                "50",
+                "75",
+                "575",
                 "\"UI\""
               ]
             },
@@ -4169,6 +4190,36 @@
                 "",
                 "\"Multishot timer\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.Multishot.has_multishot",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.Multishot.multishot_overclocked",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.Multishot.multishot_overclocking",
+                "False",
+                ""
+              ]
             }
           ]
         },
@@ -4185,16 +4236,6 @@
                 "",
                 "",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VariableChildExists2"
-              },
-              "parameters": [
-                "Power_ups_grabbed",
-                "\"The Nuclear Option\""
               ]
             },
             {
@@ -4230,8 +4271,8 @@
               "parameters": [
                 "",
                 "The_Nuclear_Option",
-                "1150",
-                "50",
+                "75",
+                "575",
                 "\"UI\""
               ]
             },
@@ -4269,6 +4310,178 @@
               "parameters": [
                 "",
                 "\"The Nuclear Option\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.The_Nuclear_Option.Has_Nuclear_option",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.The_Nuclear_Option.Nuclear_option_overclocked",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.The_Nuclear_Option.Nuclear_option_overclocking",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Power_ups.The_Nuclear_Option.Nuclear_option_cooldown_timer",
+                "=",
+                "150"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Luck",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushString"
+              },
+              "parameters": [
+                "Power_ups_grabbed",
+                "\"Luck\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Luck",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Luck",
+                "75",
+                "575",
+                "\"UI\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Luck"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "power_ups_owned",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Luck timer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Luck timer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.Luck.has_luck",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.Luck.luck_overclocked",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.Luck.luck_overclocking",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "Luck",
+                "Scale",
+                "=",
+                "0.2"
               ]
             }
           ]
@@ -4356,6 +4569,18 @@
                 },
                 {
                   "type": {
+                    "value": "Health::Health::SetCooldownDurationOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Health::Health::Hit"
                   },
                   "parameters": [
@@ -4364,6 +4589,18 @@
                     "5",
                     "no",
                     "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::SetCooldownDurationOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "1",
                     ""
                   ]
                 }
@@ -4412,6 +4649,18 @@
                 },
                 {
                   "type": {
+                    "value": "Health::Health::SetCooldownDurationOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Health::Health::Hit"
                   },
                   "parameters": [
@@ -4420,6 +4669,18 @@
                     "5",
                     "no",
                     "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::SetCooldownDurationOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "1",
                     ""
                   ]
                 }
@@ -4468,6 +4729,18 @@
                 },
                 {
                   "type": {
+                    "value": "Health::Health::SetCooldownDurationOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Health::Health::Hit"
                   },
                   "parameters": [
@@ -4476,6 +4749,18 @@
                     "5",
                     "no",
                     "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::SetCooldownDurationOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "1",
                     ""
                   ]
                 }
@@ -4524,6 +4809,18 @@
                 },
                 {
                   "type": {
+                    "value": "Health::Health::SetCooldownDurationOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Health::Health::Hit"
                   },
                   "parameters": [
@@ -4532,6 +4829,18 @@
                     "5",
                     "no",
                     "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::SetCooldownDurationOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "1",
                     ""
                   ]
                 }
@@ -4580,6 +4889,18 @@
                 },
                 {
                   "type": {
+                    "value": "Health::Health::SetCooldownDurationOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Health::Health::Hit"
                   },
                   "parameters": [
@@ -4588,6 +4909,18 @@
                     "5",
                     "no",
                     "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::SetCooldownDurationOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "1",
                     ""
                   ]
                 }
@@ -4636,6 +4969,18 @@
                 },
                 {
                   "type": {
+                    "value": "Health::Health::SetCooldownDurationOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Health::Health::Hit"
                   },
                   "parameters": [
@@ -4644,6 +4989,18 @@
                     "5",
                     "no",
                     "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::SetCooldownDurationOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "1",
                     ""
                   ]
                 }
@@ -4692,6 +5049,18 @@
                 },
                 {
                   "type": {
+                    "value": "Health::Health::SetCooldownDurationOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Health::Health::Hit"
                   },
                   "parameters": [
@@ -4700,6 +5069,18 @@
                     "5",
                     "no",
                     "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::SetCooldownDurationOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "1",
                     ""
                   ]
                 }
@@ -4748,6 +5129,18 @@
                 },
                 {
                   "type": {
+                    "value": "Health::Health::SetCooldownDurationOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Health::Health::Hit"
                   },
                   "parameters": [
@@ -4756,6 +5149,18 @@
                     "5",
                     "no",
                     "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::SetCooldownDurationOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "1",
                     ""
                   ]
                 }
@@ -4804,6 +5209,18 @@
                 },
                 {
                   "type": {
+                    "value": "Health::Health::SetCooldownDurationOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Health::Health::Hit"
                   },
                   "parameters": [
@@ -4812,6 +5229,98 @@
                     "5",
                     "no",
                     "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::SetCooldownDurationOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Power_ups.Luck.luck_overclocking",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "Power_ups_grabbed[power_up_index]",
+                    "=",
+                    "\"Luck\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Power_ups.Luck.luck_overclocking",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::SetCooldownDurationOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "5",
+                    "no",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::SetCooldownDurationOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "1",
                     ""
                   ]
                 }
@@ -5275,6 +5784,52 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "Power_ups_grabbed[power_up_index]",
+                    "=",
+                    "\"Luck\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Power_ups.Luck.luck_overclocked",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Power_ups.Luck.luck_overclocking",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Luck timer\""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -5387,7 +5942,7 @@
                     "Player",
                     "Health",
                     "=",
-                    "0",
+                    "0.3 * Power_ups.Luck.luck_multiplier",
                     ""
                   ]
                 },
@@ -6214,22 +6769,21 @@
             },
             {
               "type": {
-                "value": "BooleanVariable"
+                "value": "StringVariable"
               },
               "parameters": [
-                "Power_ups.The_Nuclear_Option.Nuclear_option_available",
-                "True",
-                ""
+                "Power_ups_grabbed[power_up_index]",
+                "=",
+                "\"The Nuclear Option\""
               ]
             },
             {
               "type": {
-                "value": "BooleanVariable"
+                "inverted": true,
+                "value": "Visible"
               },
               "parameters": [
-                "Power_ups.The_Nuclear_Option.Has_Nuclear_option",
-                "True",
-                ""
+                "The_Nuclear_Option_Cooldown"
               ]
             },
             {
@@ -6264,26 +6818,6 @@
               },
               "parameters": [
                 "Sploder",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "power_up_activated",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.The_Nuclear_Option.Nuclear_option_available",
-                "False",
                 ""
               ]
             },
@@ -6330,20 +6864,20 @@
           "actions": [
             {
               "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Power_ups.The_Nuclear_Option.Nuclear_option_available",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "Cache"
               },
               "parameters": [
                 "The_Nuclear_Option_Cooldown"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "power_up_activated",
+                "False",
+                ""
               ]
             }
           ]
@@ -7880,7 +8414,7 @@
                       "parameters": [
                         "Power_ups.The_Nuclear_Option.Nuclear_option_cooldown_timer",
                         "=",
-                        "20"
+                        "150"
                       ]
                     }
                   ]
@@ -7944,7 +8478,7 @@
                       "parameters": [
                         "Power_ups.The_Nuclear_Option.Nuclear_option_cooldown_timer",
                         "=",
-                        "20"
+                        "300"
                       ]
                     }
                   ]
@@ -7955,8 +8489,168 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Power_ups.Luck.has_luck",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "Power_ups_grabbed[power_up_index]",
+                "=",
+                "\"Luck\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Luck",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Power_ups.Luck.luck_overclocked",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Luck timer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Upload_Timer"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "power_up_activated",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Power_ups.Luck.luck_multiplier",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Power_ups.Luck.luck_overclocked",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Upload_Timer",
+                    "Text"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Luck timer\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "power_up_activated",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Power_ups.Luck.luck_multiplier",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -8944,6 +9638,113 @@
                   },
                   "parameters": [
                     "Power_ups_grabbed[power_up_index]",
+                    "=",
+                    "\"Luck\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Power_ups.Luck.has_luck",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Luck",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "None"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "Power_ups_grabbed[power_up_index]",
+                    "!=",
+                    "\"Luck\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Layer"
+                  },
+                  "parameters": [
+                    "Luck",
+                    "\"UI\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Power_ups.Luck.has_luck",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Luck"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Luck timer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Power_ups.Luck.luck_multiplier",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "Power_ups_grabbed[power_up_index]",
                     "!=",
                     "\"Bullet Speed\""
                   ]
@@ -9026,6 +9827,16 @@
                     "Power_ups_grabbed[power_up_index]",
                     "!=",
                     "\"The Nuclear Option\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "Power_ups_grabbed[power_up_index]",
+                    "!=",
+                    "\"Luck\""
                   ]
                 }
               ],
@@ -9223,7 +10034,7 @@
                 "Shooter",
                 "FireBullet",
                 "=",
-                "21 / Enemy_Difficulty",
+                "21 / Enemy_Difficulty + (3 * Power_ups.Luck.luck_multiplier)",
                 ""
               ]
             },
@@ -9281,6 +10092,16 @@
                 "=",
                 "30",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Power_ups.Luck.drop_rate",
+                "=",
+                "5 - Power_ups.Luck.luck_multiplier"
               ]
             }
           ]
@@ -9365,6 +10186,97 @@
                     "Bullet",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Shooter"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Shooter",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Shooter"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Shooter",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Shooter"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Shooter",
+                    ""
+                  ]
                 }
               ]
             },
@@ -9414,6 +10326,97 @@
                     "Bullet",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Slapper"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Slapper",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Slapper"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Slapper",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Slapper"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Slapper",
+                    ""
+                  ]
                 }
               ]
             },
@@ -9461,6 +10464,97 @@
                   },
                   "parameters": [
                     "Bullet",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Sploder"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Sploder",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Sploder"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Sploder",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Sploder"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Sploder",
                     ""
                   ]
                 }
@@ -9487,6 +10581,16 @@
                     "",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "Power_ups_grabbed[power_up_index]",
+                    "!=",
+                    "\"Bounce\""
                   ]
                 }
               ],
@@ -9572,6 +10676,210 @@
                 "1",
                 "no",
                 "no",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::IsJustDamaged"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::DamageCooldownDuration"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                "=",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "f"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Player"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Player",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Player"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Player",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Player"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Player",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Player"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Player",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Player"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Player",
                 ""
               ]
             }
@@ -10039,6 +11347,101 @@
                 "Shooter",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Shooter",
+                "drops",
+                "=",
+                "RandomInRange(1, Power_ups.Luck.drop_rate)"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Shooter",
+                    "drops",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Coin",
+                    "Shooter.PointX(\"shooter_x\")",
+                    "Shooter.PointY(\"shooter_y\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Coin",
+                    "Scale",
+                    "=",
+                    "0.2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Shooter",
+                    "drops",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Health_drop",
+                    "Shooter.PointX(\"shooter_x\")",
+                    "Shooter.PointY(\"shooter_y\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Health_drop",
+                    "Scale",
+                    "=",
+                    "0.2"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -10066,6 +11469,101 @@
                 "Slapper",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Slapper",
+                "drops",
+                "=",
+                "RandomInRange(1, Power_ups.Luck.drop_rate)"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Slapper",
+                    "drops",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Coin",
+                    "Slapper.PointX(\"slapper_x\")",
+                    "Slapper.PointY(\"slapper_y\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Coin",
+                    "Scale",
+                    "=",
+                    "0.2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Slapper",
+                    "drops",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Health_drop",
+                    "Slapper.PointX(\"slapper_x\")",
+                    "Slapper.PointY(\"slapper_y\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Health_drop",
+                    "Scale",
+                    "=",
+                    "0.2"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -10092,6 +11590,101 @@
               "parameters": [
                 "Sploder",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Sploder",
+                "drops",
+                "=",
+                "RandomInRange(1, Power_ups.Luck.drop_rate)"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Sploder",
+                    "drops",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Coin",
+                    "Sploder.PointX(\"sploder_x\")",
+                    "Sploder.PointY(\"sploder_y\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Coin",
+                    "Scale",
+                    "=",
+                    "0.2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Sploder",
+                    "drops",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Health_drop",
+                    "Sploder.PointX(\"sploder_x\")",
+                    "Slapper.PointY(\"sploder_y\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Health_drop",
+                    "Scale",
+                    "=",
+                    "0.2"
+                  ]
+                }
               ]
             }
           ]
@@ -10368,6 +11961,10 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "RepeatTimer",
+      "type": "RepeatEveryXSeconds::RepeatTimer"
     },
     {
       "name": "Resizable",

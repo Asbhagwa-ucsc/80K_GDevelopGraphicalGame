@@ -363,7 +363,7 @@
         "alwaysLoaded": false,
         "file": "assets/charIdle/playerCharIdleR(1).png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/charIdle/playerCharIdleR(1).png\",\"extension\":\".png\"}",
         "name": "assets\\charIdle\\playerCharIdleR(1).png",
         "smoothed": true,
         "userAdded": false
@@ -372,7 +372,7 @@
         "alwaysLoaded": false,
         "file": "assets/charIdle/playerCharIdleR.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/charIdle/playerCharIdleR.png\",\"extension\":\".png\"}",
         "name": "assets\\charIdle\\playerCharIdleR.png",
         "smoothed": true,
         "userAdded": false
@@ -1006,6 +1006,207 @@
         "name": "assets\\assets_floortile.png2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Kenney Mini Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Kenney Mini Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Kenney Mini Square.ttf",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/roomwalltile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\roomwalltile.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/healthdropframes/healthdrop1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\healthdropframes\\healthdrop1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/healthdropframes/healthdrop2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\healthdropframes\\healthdrop2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/healthdropframes/healthdrop3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\healthdropframes\\healthdrop3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_charIdle_playerCharIdleR(1).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\charIdle\\playerCharIdleR(1)",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_charIdle_playerCharIdleR(1)2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\charIdle\\playerCharIdleR(1)2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/coinframes/coin(1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coinframes\\coin(1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/coinframes/coin(2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coinframes\\coin(2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/coinframes/coin(3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coinframes\\coin(3).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/coinframes/coin(4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coinframes\\coin(4).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/coinframes/coin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coinframes\\coin.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/patchluckframes/patchluck(1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\patchluckframes\\patchluck(1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/patchluckframes/patchluck(2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\patchluckframes\\patchluck(2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/patchluckframes/patchluck.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\patchluckframes\\patchluck.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b43e0035dca80ea2fad5c5d65de926dae0185038e5f9cb21d5f20234f30d1c76_Grey Button_Hovered.png",
+          "name": "Grey Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/da7fc2efa0882eb5dfa0266315f2483c2f68d86a6751dc309ea9e9d0dd4759ba_Grey Button_Idle.png",
+          "name": "Grey Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/49c35e14af0e1f7aae407455cb944de96328955870e5f1500f63723ad879a42e_Grey Button_Pressed.png",
+          "name": "Grey Button_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite23.png\"}",
+        "name": "NewSprite23",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1087,6 +1288,14 @@
           "ShieldDamageTaken": 2.0247e-320,
           "FlatDamageReduction": 0,
           "PercentDamageReduction": 0
+        },
+        {
+          "name": "RepeatTimer",
+          "type": "RepeatEveryXSeconds::RepeatTimer",
+          "TimerName": "MyTimer",
+          "TimerLength": 1,
+          "Limit": -1,
+          "Counter": 0
         },
         {
           "isFolded": true,
@@ -1625,7 +1834,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Ammo:",
-      "font": "",
+      "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -1648,7 +1857,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Ammo:",
-        "font": "",
+        "font": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
@@ -1744,7 +1953,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "Health",
       "smoothed": true,
@@ -1754,7 +1963,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Health:",
-      "font": "",
+      "font": "assets\\Kenney Mini Square.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -1763,7 +1972,7 @@
         "r": 0
       },
       "content": {
-        "bold": false,
+        "bold": true,
         "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": false,
@@ -1777,7 +1986,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Health:",
-        "font": "",
+        "font": "assets\\Kenney Mini Square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
@@ -1796,7 +2005,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Overclocked!",
-      "font": "",
+      "font": "assets\\Kenney Mini Square.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -1819,7 +2028,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Overclocked!",
-        "font": "",
+        "font": "assets\\Kenney Mini Square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
@@ -1838,7 +2047,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Upload Timer:",
-      "font": "",
+      "font": "assets\\Kenney Mini Square.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -1861,7 +2070,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Upload Timer:",
-        "font": "",
+        "font": "assets\\Kenney Mini Square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
@@ -2220,7 +2429,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Currently Equipped:",
-      "font": "",
+      "font": "assets\\Kenney Mini Square.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -2243,7 +2452,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Currently Equipped:",
-        "font": "",
+        "font": "assets\\Kenney Mini Square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
@@ -2385,9 +2594,9 @@
       "updateIfNotVisible": false,
       "variables": [
         {
-          "name": "health",
+          "name": "drops",
           "type": "number",
-          "value": 3
+          "value": 0
         }
       ],
       "effects": [],
@@ -2955,7 +3164,44 @@
               "looping": false,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": []
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 13
+                      },
+                      {
+                        "x": 56,
+                        "y": 13
+                      },
+                      {
+                        "x": 56,
+                        "y": 52
+                      },
+                      {
+                        "x": 8,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -2967,7 +3213,13 @@
       "name": "Slapper",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "drops",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -3335,7 +3587,13 @@
       "name": "Sploder",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "drops",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -3895,7 +4153,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Text",
-      "font": "",
+      "font": "assets\\Kenney Mini Square.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -3918,7 +4176,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Text",
-        "font": "",
+        "font": "assets\\Kenney Mini Square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
@@ -4277,7 +4535,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Text",
-      "font": "",
+      "font": "assets\\Kenney Mini Square.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -4300,7 +4558,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Text",
-        "font": "",
+        "font": "assets\\Kenney Mini Square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
@@ -4858,7 +5116,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Text",
-      "font": "",
+      "font": "assets\\Kenney Mini Square.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -4881,7 +5139,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Text",
-        "font": "",
+        "font": "assets\\Kenney Mini Square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
@@ -5240,7 +5498,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Text",
-      "font": "",
+      "font": "assets\\Kenney Mini Square.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -5263,7 +5521,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Text",
-        "font": "",
+        "font": "assets\\Kenney Mini Square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
@@ -5622,7 +5880,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Text",
-      "font": "",
+      "font": "assets\\Kenney Mini Square.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -5645,7 +5903,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Text",
-        "font": "",
+        "font": "assets\\Kenney Mini Square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
@@ -5712,6 +5970,598 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 64,
+      "name": "floorTileSprite",
+      "texture": "assets\\floortile.png2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 64,
+      "name": "obstacleTileSprite",
+      "texture": "assets\\obstaclewalltile.png2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "WallTile",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\roomwalltile.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 512,
+                        "y": 0
+                      },
+                      {
+                        "x": 512,
+                        "y": 512
+                      },
+                      {
+                        "x": 0,
+                        "y": 512
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Health_drop",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "health_idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\healthdropframes\\healthdrop1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 72,
+                        "y": 72
+                      },
+                      {
+                        "x": 448,
+                        "y": 72
+                      },
+                      {
+                        "x": 448,
+                        "y": 448
+                      },
+                      {
+                        "x": 72,
+                        "y": 448
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\healthdropframes\\healthdrop2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 72,
+                        "y": 72
+                      },
+                      {
+                        "x": 448,
+                        "y": 72
+                      },
+                      {
+                        "x": 448,
+                        "y": 448
+                      },
+                      {
+                        "x": 72,
+                        "y": 448
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\healthdropframes\\healthdrop3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 72,
+                        "y": 72
+                      },
+                      {
+                        "x": 448,
+                        "y": 72
+                      },
+                      {
+                        "x": 448,
+                        "y": 448
+                      },
+                      {
+                        "x": 72,
+                        "y": 448
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Coin",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coinframes\\coin(1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 72,
+                        "y": 48
+                      },
+                      {
+                        "x": 448,
+                        "y": 48
+                      },
+                      {
+                        "x": 448,
+                        "y": 464
+                      },
+                      {
+                        "x": 72,
+                        "y": 464
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coinframes\\coin(2).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 72,
+                        "y": 48
+                      },
+                      {
+                        "x": 448,
+                        "y": 48
+                      },
+                      {
+                        "x": 448,
+                        "y": 464
+                      },
+                      {
+                        "x": 72,
+                        "y": 464
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coinframes\\coin(3).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 72,
+                        "y": 48
+                      },
+                      {
+                        "x": 448,
+                        "y": 48
+                      },
+                      {
+                        "x": 448,
+                        "y": 464
+                      },
+                      {
+                        "x": 72,
+                        "y": 464
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coinframes\\coin(4).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 72,
+                        "y": 48
+                      },
+                      {
+                        "x": 448,
+                        "y": 48
+                      },
+                      {
+                        "x": 448,
+                        "y": 464
+                      },
+                      {
+                        "x": 72,
+                        "y": 464
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\coinframes\\coin.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 72,
+                        "y": 48
+                      },
+                      {
+                        "x": 448,
+                        "y": 48
+                      },
+                      {
+                        "x": 448,
+                        "y": 464
+                      },
+                      {
+                        "x": 72,
+                        "y": 464
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Luck",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\patchluckframes\\patchluck(1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 48,
+                        "y": 40
+                      },
+                      {
+                        "x": 456,
+                        "y": 40
+                      },
+                      {
+                        "x": 456,
+                        "y": 440
+                      },
+                      {
+                        "x": 48,
+                        "y": 440
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\patchluckframes\\patchluck(2).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 48,
+                        "y": 40
+                      },
+                      {
+                        "x": 456,
+                        "y": 40
+                      },
+                      {
+                        "x": 456,
+                        "y": 440
+                      },
+                      {
+                        "x": 48,
+                        "y": 440
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\patchluckframes\\patchluck.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 48,
+                        "y": 40
+                      },
+                      {
+                        "x": 456,
+                        "y": 40
+                      },
+                      {
+                        "x": 456,
+                        "y": 440
+                      },
+                      {
+                        "x": 48,
+                        "y": 440
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Coin_count",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "assets\\Kenney Mini Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "assets\\Kenney Mini Square.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -5806,6 +6656,27 @@
       },
       {
         "objectName": "BG"
+      },
+      {
+        "objectName": "floorTileSprite"
+      },
+      {
+        "objectName": "obstacleTileSprite"
+      },
+      {
+        "objectName": "WallTile"
+      },
+      {
+        "objectName": "Health_drop"
+      },
+      {
+        "objectName": "Coin"
+      },
+      {
+        "objectName": "Luck"
+      },
+      {
+        "objectName": "Coin_count"
       }
     ]
   },
@@ -6047,6 +6918,37 @@
           ]
         },
         {
+          "name": "Luck",
+          "type": "structure",
+          "children": [
+            {
+              "name": "drop_rate",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "has_luck",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "luck_multiplier",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "luck_overclocked",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "luck_overclocking",
+              "type": "boolean",
+              "value": false
+            }
+          ]
+        },
+        {
           "name": "Multishot",
           "type": "structure",
           "children": [
@@ -6073,11 +6975,6 @@
           "children": [
             {
               "name": "Has_Nuclear_option",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "name": "Nuclear_option_available",
               "type": "boolean",
               "value": false
             },
@@ -6200,16 +7097,54 @@
       "name": "Evil_bullet_shoot_speed",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "Coins",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "power_ups_unequipped",
+      "type": "array",
+      "children": []
     }
   ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene"
+      "referenceTo": "/layouts/chamber-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/opening"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/credits"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/opening-2"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/extendedvariables"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/arraytools"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/dungeongenerator"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/advancedprojectile"
