@@ -1,8 +1,8 @@
 {
   "b": 0,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Chamber_321",
-  "name": "Chamber 1",
+  "mangledName": "Chamber_321_32_40tutorial_41",
+  "name": "Chamber 1 (tutorial)",
   "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,11 +18,22 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7370816317994054,
+    "zoomFactor": 0.4950840073748955,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "filler",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "random_power_up",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -124,23 +135,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 65,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bounce",
-      "persistentUuid": "b80681aa-0ed9-4263-a449-a653754b5eb4",
-      "width": 67,
-      "x": 516,
-      "y": 621,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -205,108 +199,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 74,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Freeze_Time",
-      "persistentUuid": "0e838949-2020-4cf0-a18c-46bdceb509ba",
-      "width": 72,
-      "x": 367,
-      "y": 290,
-      "zOrder": 41,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 78,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Dash",
-      "persistentUuid": "c58c6f7b-1c79-4252-96e3-d11ab8c36111",
-      "width": 79,
-      "x": 414,
-      "y": 489,
-      "zOrder": 42,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 77,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Fast_shoot",
-      "persistentUuid": "d3626f3f-4348-426a-aaa3-9b1f67b15c0a",
-      "width": 73,
-      "x": 579,
-      "y": 421,
-      "zOrder": 43,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 72,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bomb_powerup",
-      "persistentUuid": "3d43e40f-b836-475d-a290-f203df7267cd",
-      "width": 74,
-      "x": 281,
-      "y": 391,
-      "zOrder": 44,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 75,
-      "keepRatio": true,
-      "layer": "",
-      "name": "xlr8",
-      "persistentUuid": "0c904d97-15e5-49bb-bfa0-27500529424e",
-      "width": 70,
-      "x": 554,
-      "y": 46,
-      "zOrder": 48,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 73,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bullet_Damage",
-      "persistentUuid": "112f21ce-689b-4f60-adcb-14726102f1d7",
-      "width": 72,
-      "x": 114,
-      "y": 340,
-      "zOrder": 49,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -317,40 +209,6 @@
       "x": 5,
       "y": 185,
       "zOrder": 50,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 65,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Multishot",
-      "persistentUuid": "9efb239c-06c4-4521-9e8b-e7c29162f771",
-      "width": 65,
-      "x": 533,
-      "y": 262,
-      "zOrder": 51,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 67,
-      "keepRatio": true,
-      "layer": "",
-      "name": "The_Nuclear_Option",
-      "persistentUuid": "daa12942-54b2-45b9-8928-76fbf65726e7",
-      "width": 65,
-      "x": 455,
-      "y": 146,
-      "zOrder": 52,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -374,15 +232,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 1294,
-      "keepRatio": true,
+      "depth": 1.5045135406218655,
+      "height": 1500,
       "layer": "",
       "name": "floorTileSprite",
       "persistentUuid": "24231653-3dd0-443b-812a-4b7040fce9d0",
-      "width": 2056,
-      "x": -714,
-      "y": -513,
+      "width": 3000,
+      "x": -849,
+      "y": -400,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -422,55 +279,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 100,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Luck",
-      "persistentUuid": "528aab08-35b1-4b9c-a0e6-9f29860c1642",
-      "width": 100,
-      "x": 631,
-      "y": 269,
-      "zOrder": 70,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Power_up_active_state",
-      "persistentUuid": "8f78a0d0-4ca1-4d63-927f-3896772b07a7",
-      "width": 0,
-      "x": 4,
-      "y": 235,
-      "zOrder": 71,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bounce",
-      "persistentUuid": "32f61f81-5250-438a-9ade-656fd16091b8",
-      "width": 0,
-      "x": 896,
-      "y": 342,
-      "zOrder": 72,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -481,6 +289,396 @@
       "x": 4,
       "y": 269,
       "zOrder": 73,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 750,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WallTile",
+      "persistentUuid": "6d991df2-d4ed-4114-abbc-09666123147b",
+      "width": 750,
+      "x": -1600,
+      "y": -400,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 750,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WallTile",
+      "persistentUuid": "bb1200c8-204a-4939-a164-a424a1f7ef7f",
+      "width": 750,
+      "x": -1600,
+      "y": 350,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 750,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WallTile",
+      "persistentUuid": "4ead0dd5-a1f6-4f94-8aae-cf88c4124394",
+      "width": 750,
+      "x": -1595,
+      "y": -1150,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 750,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WallTile",
+      "persistentUuid": "484aec2e-6e46-4682-84bf-1079cc58f259",
+      "width": 750,
+      "x": -850,
+      "y": -1150,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 750,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WallTile",
+      "persistentUuid": "84776868-d2a3-400d-8527-22c757b8a2b6",
+      "width": 750,
+      "x": -100,
+      "y": -1150,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 750,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WallTile",
+      "persistentUuid": "11c88cd0-ee69-438d-8832-d56159418dd8",
+      "width": 750,
+      "x": 650,
+      "y": -1150,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 750,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WallTile",
+      "persistentUuid": "1a548c59-4b84-41d3-9c17-30dfab985db2",
+      "width": 750,
+      "x": 1400,
+      "y": -1150,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 750,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WallTile",
+      "persistentUuid": "87a92e50-3af1-429f-aa7f-857752499df6",
+      "width": 750,
+      "x": 2150,
+      "y": -1150,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 750,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WallTile",
+      "persistentUuid": "781a36be-e5ac-486d-ae30-0de8ac3a7dd6",
+      "width": 750,
+      "x": 2150,
+      "y": -400,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 750,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WallTile",
+      "persistentUuid": "bc72484a-27b4-49c7-9b54-f3cf0998f7aa",
+      "width": 750,
+      "x": 2150,
+      "y": 350,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 750,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WallTile",
+      "persistentUuid": "d9b12697-a3b3-4a5d-b60b-24589116902d",
+      "width": 750,
+      "x": -1600,
+      "y": 1100,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 750,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WallTile",
+      "persistentUuid": "982d4944-12de-4938-a2b2-b0eff3451f34",
+      "width": 750,
+      "x": -100,
+      "y": 1100,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 750,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WallTile",
+      "persistentUuid": "2ce09614-717e-49aa-8e62-24590b487a14",
+      "width": 750,
+      "x": -850,
+      "y": 1100,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 750,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WallTile",
+      "persistentUuid": "676f7683-2a6f-4cc7-aab3-dfee47147337",
+      "width": 750,
+      "x": 650,
+      "y": 1100,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 750,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WallTile",
+      "persistentUuid": "90176ba5-da89-4f76-9104-0144e80dcfef",
+      "width": 750,
+      "x": 1400,
+      "y": 1100,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 750,
+      "keepRatio": true,
+      "layer": "",
+      "name": "WallTile",
+      "persistentUuid": "a7d265e4-1562-410a-b577-f6a8ff79ae17",
+      "width": 750,
+      "x": 2150,
+      "y": 1100,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 300,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "9c783232-eb35-4bc7-8032-5844cc3eb65a",
+      "width": 300,
+      "x": 500,
+      "y": -450,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 0,
+      "height": 300,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Door2",
+      "persistentUuid": "48aa1a5f-2cc6-43d0-9233-711be367e9fb",
+      "width": 300,
+      "x": -950,
+      "y": 210,
+      "zOrder": 76,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 300,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Door3",
+      "persistentUuid": "1f13e13a-6d5e-4ffa-8bd5-01df4ab289ac",
+      "width": 300,
+      "x": 500,
+      "y": 900,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0,
+      "height": 300,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Door4",
+      "persistentUuid": "d9b3b119-2bbd-4f3a-80cb-7f78bbf0fb21",
+      "width": 300,
+      "x": 1950,
+      "y": 210,
+      "zOrder": 78,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 664,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Level_text",
+      "persistentUuid": "87838676-0bc7-4c14-931d-5799350e0678",
+      "width": 755,
+      "x": 372,
+      "y": 22,
+      "zOrder": 79,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 152,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Level_text_filler",
+      "persistentUuid": "3d4ea1eb-d173-4161-8e20-2450fcec20fa",
+      "width": 615,
+      "x": 452,
+      "y": 108,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "OnScreenControlsButton",
+      "persistentUuid": "06758196-e43f-469f-8e6d-2cc3041d50ff",
+      "width": 0,
+      "x": 658,
+      "y": 570,
+      "zOrder": 81,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -530,17 +728,322 @@
       }
     },
     {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Door",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite25",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 23
+                      },
+                      {
+                        "x": 57,
+                        "y": 23
+                      },
+                      {
+                        "x": 57,
+                        "y": 30
+                      },
+                      {
+                        "x": 5,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Door2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite25",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 23
+                      },
+                      {
+                        "x": 57,
+                        "y": 23
+                      },
+                      {
+                        "x": 57,
+                        "y": 30
+                      },
+                      {
+                        "x": 5,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Door3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite25",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 23
+                      },
+                      {
+                        "x": 57,
+                        "y": 23
+                      },
+                      {
+                        "x": 57,
+                        "y": 30
+                      },
+                      {
+                        "x": 5,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Door4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite25",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 23
+                      },
+                      {
+                        "x": 57,
+                        "y": 23
+                      },
+                      {
+                        "x": 57,
+                        "y": 30
+                      },
+                      {
+                        "x": 5,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Level_text",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite26",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 7
+                      },
+                      {
+                        "x": 60,
+                        "y": 7
+                      },
+                      {
+                        "x": 60,
+                        "y": 61
+                      },
+                      {
+                        "x": 6,
+                        "y": 61
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Power_up_active_state",
+      "name": "Level_text_filler",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text",
+      "string": "Alright, here's the rundown:\nWASD to move\nLeft click to shoot\nRight Click to Dash\nR to reload\nQ to activate patches (power ups)\nT to cycle patches\nE to interact (doors, hatches, and shops)\n\nHere's where it gets complex:\nEvery \"patch\" (power up) you pick up will not start off at in its strongest form, and needs to be uploaded in order to enter its best form. You can either wait out the timer or overclock (\"f\") to speed it up. Overclocking costs health though. Alright, that's it. Good luck (you're gonna need it)\n\nOh, one more thing: Those big black boxes in the corners of the room are doors. Interact with them to move through the game. Beat bosses to move further into the \"source code.\" Finally, enemies respawn when you re-enter rooms. If you think that's too hard, get good.",
       "font": "assets\\Kenney Mini Square.ttf",
       "textAlignment": "left",
       "characterSize": 20,
@@ -563,12 +1066,96 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Text",
+        "text": "Alright, here's the rundown:\nWASD to move\nLeft click to shoot\nRight Click to Dash\nR to reload\nQ to activate patches (power ups)\nT to cycle patches\nE to interact (doors, hatches, and shops)\n\nHere's where it gets complex:\nEvery \"patch\" (power up) you pick up will not start off at in its strongest form, and needs to be uploaded in order to enter its best form. You can either wait out the timer or overclock (\"f\") to speed it up. Overclocking costs health though. Alright, that's it. Good luck (you're gonna need it)\n\nOh, one more thing: Those big black boxes in the corners of the room are doors. Interact with them to move through the game. Beat bosses to move further into the \"source code.\" Finally, enemies respawn when you re-enter rooms. If you think that's too hard, get good.",
         "font": "assets\\Kenney Mini Square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
         "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
+      "name": "OnScreenControlsButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 1,
+        "BottomPadding": 0,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 6,
+          "height": 64,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "On Screen Controls Button_Hovered.png",
+          "tiled": false,
+          "topMargin": 6,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 6,
+          "height": 64,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "On Screen Controls Button_Idle.png",
+          "tiled": false,
+          "topMargin": 6,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "OK",
+          "font": "assets\\Kenney Mini Square.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "OK",
+            "font": "assets\\Kenney Mini Square.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 6,
+          "height": 64,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "On Screen Controls Button_Pressed.png",
+          "tiled": false,
+          "topMargin": 6,
+          "width": 192
+        }
       }
     }
   ],
@@ -579,7 +1166,25 @@
         "objectName": "Test_for_powerups"
       },
       {
-        "objectName": "Power_up_active_state"
+        "objectName": "Door"
+      },
+      {
+        "objectName": "Door2"
+      },
+      {
+        "objectName": "Door3"
+      },
+      {
+        "objectName": "Door4"
+      },
+      {
+        "objectName": "Level_text"
+      },
+      {
+        "objectName": "Level_text_filler"
+      },
+      {
+        "objectName": "OnScreenControlsButton"
       }
     ]
   },
@@ -672,14 +1277,6 @@
             },
             {
               "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Power_up_active_state"
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -696,16 +1293,6 @@
                 "power_up_activated",
                 "False",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Enemy_Difficulty",
-                "=",
-                "1"
               ]
             },
             {
@@ -819,6 +1406,237 @@
                 "=",
                 "-9"
               ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Bullet",
+                "=",
+                "100"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Boss1",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Boss1",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Boss1",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Enemy_Difficulty",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Level_text_filler",
+                "Text",
+                "=",
+                "\"Alright, here's the rundown:\nWASD to move\nLeft click to shoot\nRight Click to Dash\nR to reload\nQ to activate patches (power ups)\nT to cycle patches\nE to interact (doors, hatches, and shops)\n\nHere's where it gets complex:\nEvery patch (power up) you pick up will not start off at in its strongest form, and needs to be uploaded in order to enter its best form. You can either wait out the timer or overclock (f) to speed it up. Overclocking costs health though. Alright, that's it. Good luck (you're gonna need it)\n\nOh, one more thing: Those big black boxes in the corners of the room are doors. Interact with them to move through the game. Beat bosses to move further into the source code. Finally, enemies respawn when you re-enter rooms. If you think that's too hard, get good.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Boss1",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Boss1",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Boss1",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Enemy_Difficulty",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Level_text_filler",
+                "Text",
+                "=",
+                "\"Nice job, but it only gets harder from here\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Boss1",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Boss1",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Boss1",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Enemy_Difficulty",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Level_text_filler",
+                "Text",
+                "=",
+                "\"All right, let's do this one last time.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Boss1",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Boss1",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Boss1",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Endgame\"",
+                ""
+              ]
             }
           ]
         },
@@ -849,92 +1667,853 @@
           "actions": [
             {
               "type": {
-                "value": "PushString"
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "power_ups_unequipped",
+                "power_ups_unequipped[0]",
+                "=",
                 "\"Bounce\""
               ]
             },
             {
               "type": {
-                "value": "PushString"
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "power_ups_unequipped",
+                "power_ups_unequipped[1]",
+                "=",
                 "\"Bullet Speed\""
               ]
             },
             {
               "type": {
-                "value": "PushString"
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "power_ups_unequipped",
+                "power_ups_unequipped[2]",
+                "=",
                 "\"Dash\""
               ]
             },
             {
               "type": {
-                "value": "PushString"
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "power_ups_unequipped",
+                "power_ups_unequipped[3]",
+                "=",
                 "\"Freeze Time\""
               ]
             },
             {
               "type": {
-                "value": "PushString"
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "power_ups_unequipped",
+                "power_ups_unequipped[4]",
+                "=",
                 "\"Bomb\""
               ]
             },
             {
               "type": {
-                "value": "PushString"
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "power_ups_unequipped",
+                "power_ups_unequipped[5]",
+                "=",
                 "\"XLR8\""
               ]
             },
             {
               "type": {
-                "value": "PushString"
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "power_ups_unequipped",
+                "power_ups_unequipped[6]",
+                "=",
                 "\"Bullet Damage\""
               ]
             },
             {
               "type": {
-                "value": "PushString"
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "power_ups_unequipped",
+                "power_ups_unequipped[7]",
+                "=",
                 "\"Multishot\""
               ]
             },
             {
               "type": {
-                "value": "PushString"
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "power_ups_unequipped",
+                "power_ups_unequipped[8]",
+                "=",
                 "\"The Nuclear Option\""
               ]
             },
             {
               "type": {
-                "value": "PushString"
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "power_ups_unequipped",
+                "power_ups_unequipped[9]",
+                "=",
                 "\"Luck\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "max_x",
+                "=",
+                "RandomInRange(1, 10)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "max_y",
+                "=",
+                "RandomInRange(1, 10)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ArrayTools::GlobalFillNumber"
+              },
+              "parameters": [
+                "",
+                "Level_array",
+                "0",
+                "0",
+                "99",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "filler",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Health_Bar"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Ammo"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Equipped_Powerup"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Coin_count"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Health"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Player",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Level_text",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "infiniteLoopWarning": true,
+              "type": "BuiltinCommonInstructions::While",
+              "whileConditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "filler",
+                    "<",
+                    "max_x * max_y"
+                  ]
+                }
+              ],
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Level_array[filler]",
+                    "=",
+                    "RandomInRange(1, 10)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "filler",
+                    "=",
+                    "filler + 1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "OnScreenControlsButton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Level_text",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Level_text_filler",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Health_Bar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Ammo",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Equipped_Powerup",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Coin_count",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Health",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "650",
+                "500",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "Player",
+                "Scale",
+                "=",
+                "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "OnScreenControlsButton",
+                "OnScreenControlsButton"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "random_power_up",
+                "=",
+                "RandomFloatInRange(0 ,9)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Bullet_speed",
+                "=",
+                "300"
+              ]
+            },
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::SetBulletLayer"
+              },
+              "parameters": [
+                "Player",
+                "FireBullet",
+                "",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "power_ups_unequipped[random_power_up]",
+                    "=",
+                    "\"Bounce\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Bounce",
+                    "650",
+                    "250",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Bounce",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "power_ups_unequipped[random_power_up]",
+                    "=",
+                    "\"Bullet Speed\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fast_shoot",
+                    "650",
+                    "250",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Fast_shoot",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "power_ups_unequipped[random_power_up]",
+                    "=",
+                    "\"Dash\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Dash",
+                    "650",
+                    "250",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Dash",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "power_ups_unequipped[random_power_up]",
+                    "=",
+                    "\"Freeze Time\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Freeze_Time",
+                    "650",
+                    "250",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Freeze_Time",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "power_ups_unequipped[random_power_up]",
+                    "=",
+                    "\"Bomb\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Bomb_powerup",
+                    "650",
+                    "250",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Bomb_powerup",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "power_ups_unequipped[random_power_up]",
+                    "=",
+                    "\"XLR8\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "xlr8",
+                    "650",
+                    "250",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "xlr8",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "power_ups_unequipped[random_power_up]",
+                    "=",
+                    "\"Bullet Damage\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Bullet_Damage",
+                    "650",
+                    "250",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Bullet_Damage",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "power_ups_unequipped[random_power_up]",
+                    "=",
+                    "\"Multishot\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Multishot",
+                    "650",
+                    "250",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Multishot",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "power_ups_unequipped[random_power_up]",
+                    "=",
+                    "\"The Nuclear Option\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "The_Nuclear_Option",
+                    "650",
+                    "250",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "The_Nuclear_Option",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "power_ups_unequipped[random_power_up]",
+                    "=",
+                    "\"Luck\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Luck",
+                    "650",
+                    "250",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Luck",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Door",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Door2",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Door3",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Door4",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Chamber 2\"",
+                ""
               ]
             }
           ]
@@ -982,7 +2561,7 @@
               },
               "parameters": [
                 "",
-                ".8",
+                "0.8",
                 "",
                 ""
               ]
@@ -1120,7 +2699,7 @@
                 "Test_for_powerups",
                 "Text",
                 "=",
-                "power_ups_unequipped[power_up_index]"
+                "Bullet_speed"
               ]
             }
           ],
@@ -1167,7 +2746,7 @@
                     "Upload_Timer",
                     "Text",
                     "=",
-                    "\"Ball of Rubberbanding Upload: \" + ToString(upload_timer)"
+                    "\"Ball of Rubberbanding (Bouncy Bullets) Upload: \" + ToString(upload_timer)"
                   ]
                 },
                 {
@@ -1296,7 +2875,7 @@
                     "Upload_Timer",
                     "Text",
                     "=",
-                    "\"Railgun Barrel Upload: \" + ToString(upload_timer)"
+                    "\"Railgun Barrel (Faster shooting) Upload: \" + ToString(upload_timer)"
                   ]
                 },
                 {
@@ -1425,7 +3004,7 @@
                     "Upload_Timer",
                     "Text",
                     "=",
-                    "\"Battering RAM Upload: \" + ToString(upload_timer)"
+                    "\"Battering RAM (Improved Dash) Upload: \" + ToString(upload_timer)"
                   ]
                 },
                 {
@@ -1554,7 +3133,7 @@
                     "Upload_Timer",
                     "Text",
                     "=",
-                    "\"Subzero coolant Upload: \" + ToString(upload_timer)"
+                    "\"Subzero coolant (Freeze Time) Upload: \" + ToString(upload_timer)"
                   ]
                 },
                 {
@@ -1868,7 +3447,7 @@
                     "Upload_Timer",
                     "Text",
                     "=",
-                    "\"Javasprint Upload: \" + ToString(upload_timer)"
+                    "\"Javasprint (Increased Movement Speed) Upload: \" + ToString(upload_timer)"
                   ]
                 },
                 {
@@ -1997,7 +3576,7 @@
                     "Upload_Timer",
                     "Text",
                     "=",
-                    "\"Executabullet Upload: \" + ToString(upload_timer)"
+                    "\"Executabullet (Increased bullet damage) Upload: \" + ToString(upload_timer)"
                   ]
                 },
                 {
@@ -2182,7 +3761,7 @@
                     "Upload_Timer",
                     "Text",
                     "=",
-                    "\"Multithreader Upload: \" + ToString(upload_timer)"
+                    "\"Multithreader (Multishot) Upload: \" + ToString(upload_timer)"
                   ]
                 },
                 {
@@ -2311,7 +3890,7 @@
                     "Upload_Timer",
                     "Text",
                     "=",
-                    "\"System Wipe Upload: \" + ToString(upload_timer)"
+                    "\"System Wipe (Kill all enemies) Upload: \" + ToString(upload_timer)"
                   ]
                 },
                 {
@@ -2440,7 +4019,7 @@
                     "Upload_Timer",
                     "Text",
                     "=",
-                    "\"5-Leafed-Clover Upload: \" + ToString(upload_timer)"
+                    "\"5-Leafed-Clover (Increased Luck) Upload: \" + ToString(upload_timer)"
                   ]
                 },
                 {
@@ -2526,11 +4105,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ]
         },
@@ -3073,6 +4647,35 @@
               },
               "parameters": [
                 "Player",
+                "WallTile",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player",
+                "WallTile",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
                 "Coin",
                 "",
                 "",
@@ -3182,11 +4785,11 @@
             },
             {
               "type": {
-                "inverted": true,
-                "value": "VariableChildExists2"
+                "value": "StringVariable"
               },
               "parameters": [
-                "power_ups_unequipped",
+                "power_ups_unequipped[0]",
+                "=",
                 "\"Bounce\""
               ]
             },
@@ -3303,6 +4906,16 @@
                 "=",
                 "3"
               ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "power_ups_unequipped[0]",
+                "=",
+                "\"\""
+              ]
             }
           ]
         },
@@ -3319,6 +4932,16 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "power_ups_unequipped[1]",
+                "=",
+                "\"Bullet Speed\""
               ]
             },
             {
@@ -3424,6 +5047,25 @@
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "RemoveVariableAt"
+              },
+              "parameters": [
+                "power_up_activated",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "power_ups_unequipped[1]",
+                "=",
+                "\"\""
+              ]
             }
           ]
         },
@@ -3440,6 +5082,16 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "power_ups_unequipped[2]",
+                "=",
+                "\"Dash\""
               ]
             },
             {
@@ -3545,6 +5197,25 @@
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "RemoveVariableAt"
+              },
+              "parameters": [
+                "power_up_activated",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "power_ups_unequipped[2]",
+                "=",
+                "\"\""
+              ]
             }
           ]
         },
@@ -3561,6 +5232,16 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "power_ups_unequipped[3]",
+                "=",
+                "\"Freeze Time\""
               ]
             },
             {
@@ -3696,6 +5377,25 @@
                 "=",
                 "10"
               ]
+            },
+            {
+              "type": {
+                "value": "RemoveVariableAt"
+              },
+              "parameters": [
+                "power_up_activated",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "power_ups_unequipped[3]",
+                "=",
+                "\"\""
+              ]
             }
           ]
         },
@@ -3712,6 +5412,16 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "power_ups_unequipped[4]",
+                "=",
+                "\"Bomb\""
               ]
             },
             {
@@ -3827,6 +5537,25 @@
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "RemoveVariableAt"
+              },
+              "parameters": [
+                "power_up_activated",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "power_ups_unequipped[4]",
+                "=",
+                "\"\""
+              ]
             }
           ]
         },
@@ -3843,6 +5572,16 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "power_ups_unequipped[5]",
+                "=",
+                "\"XLR8\""
               ]
             },
             {
@@ -3948,6 +5687,25 @@
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "RemoveVariableAt"
+              },
+              "parameters": [
+                "power_up_activated",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "power_ups_unequipped[5]",
+                "=",
+                "\"\""
+              ]
             }
           ]
         },
@@ -3964,6 +5722,16 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "power_ups_unequipped[6]",
+                "=",
+                "\"Bullet Damage\""
               ]
             },
             {
@@ -4099,6 +5867,25 @@
                 "=",
                 "10"
               ]
+            },
+            {
+              "type": {
+                "value": "RemoveVariableAt"
+              },
+              "parameters": [
+                "power_up_activated",
+                "6"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "power_ups_unequipped[6]",
+                "=",
+                "\"\""
+              ]
             }
           ]
         },
@@ -4115,6 +5902,16 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "power_ups_unequipped[7]",
+                "=",
+                "\"Multishot\""
               ]
             },
             {
@@ -4220,6 +6017,25 @@
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "RemoveVariableAt"
+              },
+              "parameters": [
+                "power_up_activated",
+                "7"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "power_ups_unequipped[7]",
+                "=",
+                "\"\""
+              ]
             }
           ]
         },
@@ -4236,6 +6052,16 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "power_ups_unequipped[8]",
+                "=",
+                "\"The Nuclear Option\""
               ]
             },
             {
@@ -4351,6 +6177,25 @@
                 "=",
                 "150"
               ]
+            },
+            {
+              "type": {
+                "value": "RemoveVariableAt"
+              },
+              "parameters": [
+                "power_up_activated",
+                "8"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "power_ups_unequipped[8]",
+                "=",
+                "\"\""
+              ]
             }
           ]
         },
@@ -4367,6 +6212,16 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "power_ups_unequipped[9]",
+                "=",
+                "\"Luck\""
               ]
             },
             {
@@ -4482,6 +6337,25 @@
                 "Scale",
                 "=",
                 "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "RemoveVariableAt"
+              },
+              "parameters": [
+                "power_up_activated",
+                "9"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "power_ups_unequipped[9]",
+                "=",
+                "\"\""
               ]
             }
           ]
@@ -6985,6 +8859,17 @@
                         "Bullet",
                         "Bounce",
                         "obstacleTileSprite",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Bounce::Bounce::BounceOff"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "Bounce",
+                        "WallTile",
                         ""
                       ]
                     }
@@ -11706,22 +13591,11 @@
           "actions": [
             {
               "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Player",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
+                "value": "Scene"
               },
               "parameters": [
                 "",
-                "You_DIED",
-                "Player.PointX(\"player_x\")",
-                "Player.PointY(\"player_y\")",
+                "\"Dead\"",
                 ""
               ]
             }
