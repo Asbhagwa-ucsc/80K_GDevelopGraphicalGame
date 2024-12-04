@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.17130934511242088,
+    "zoomFactor": 0.2022070730360214,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -35,23 +35,6 @@
     }
   ],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 102,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Player",
-      "persistentUuid": "ff61a886-d379-4c25-873b-93e9b02a541a",
-      "width": 103,
-      "x": 702,
-      "y": 414,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": false,
@@ -273,22 +256,6 @@
       "x": 200,
       "y": 10,
       "zOrder": 69,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Test_for_powerups",
-      "persistentUuid": "c4cec71d-64d5-4240-86ab-9d1f752cb71f",
-      "width": 0,
-      "x": 4,
-      "y": 269,
-      "zOrder": 73,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -758,6 +725,23 @@
       "x": -89,
       "y": -147,
       "zOrder": 87,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Player",
+      "persistentUuid": "821b431c-757c-4ff5-bfeb-2acbcbc708f6",
+      "width": 100,
+      "x": 594,
+      "y": 207,
+      "zOrder": 88,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1280,16 +1264,6 @@
             },
             {
               "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Bullet_speed",
-                "=",
-                "300"
-              ]
-            },
-            {
-              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -1368,6 +1342,182 @@
                 "obstacleTileSprite",
                 "=",
                 "-9"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"bounce timer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"bounce timer\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Door1",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "650",
+                    "=",
+                    "900"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Door1",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Door2",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "1960",
+                    "=",
+                    "325"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Door2",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Door3",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "650",
+                    "=",
+                    "-250"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Door3",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Door4",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "-725",
+                    "=",
+                    "325"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Door4",
+                    "False",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -1573,7 +1723,7 @@
               },
               "parameters": [
                 "",
-                "0.8",
+                "1",
                 "",
                 ""
               ]
@@ -1711,7 +1861,7 @@
                 "Test_for_powerups",
                 "Text",
                 "=",
-                "Bullet_speed + Bullet_speed_2"
+                "Power_ups_grabbed[0] + Power_ups_grabbed[1] + Bullet_speed + Bullet_speed_2"
               ]
             }
           ],
@@ -1747,7 +1897,7 @@
                   "parameters": [
                     "upload_timer",
                     "=",
-                    "60 - trunc((TimerElapsedTime(\"bounce timer\") * Timer_Scale))"
+                    "60 - Power_ups.Bounce.bounce_timer_global"
                   ]
                 },
                 {
@@ -3619,6 +3769,90 @@
                 ""
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "power_up_activated",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "Power_ups_grabbed[power_up_index]",
+                    "=",
+                    "\"Bullet Speed\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Power_ups[\"Fast Shoot\"][\"fast shoot overclocked\"]",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Bullet_speed",
+                        "=",
+                        "1500"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Power_ups[\"Fast Shoot\"][\"fast shoot overclocked\"]",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Bullet_speed",
+                        "=",
+                        "1000"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
@@ -3859,24 +4093,6 @@
                 "power_ups_owned",
                 "+",
                 "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"bounce timer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PauseTimer"
-              },
-              "parameters": [
-                "",
-                "\"bounce timer\""
               ]
             },
             {
@@ -7959,6 +8175,17 @@
                         "obstacleTileSprite",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Bounce::Bounce::BounceOff"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "Bounce",
+                        "WallTile",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -11000,6 +11227,16 @@
                 "=",
                 "5 - Power_ups.Luck.luck_multiplier"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Bullet_speed",
+                "=",
+                "300"
+              ]
             }
           ]
         },
@@ -11014,14 +11251,54 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "obstacleTileSprite",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "WallTile",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "Bullet",
-                    "obstacleTileSprite",
-                    "",
-                    "",
+                    "power_up_activated",
+                    "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "Power_ups_grabbed[power_up_index]",
+                    "!=",
+                    "\"Bounce\""
                   ]
                 }
               ],
@@ -11470,24 +11747,34 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "Evil_Bullet",
-                    "obstacleTileSprite",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "Power_ups_grabbed[power_up_index]",
-                    "!=",
-                    "\"Bounce\""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Evil_Bullet",
+                        "obstacleTileSprite",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Evil_Bullet",
+                        "WallTile",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ],
@@ -12600,7 +12887,18 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Dead\"",
+                ""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::ForEach",

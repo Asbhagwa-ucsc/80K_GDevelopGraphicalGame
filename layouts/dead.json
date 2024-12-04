@@ -242,10 +242,10 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Quit",
+          "string": "Play Again",
           "font": "assets\\Kenney Mini Square.ttf",
           "textAlignment": "center",
-          "characterSize": 60,
+          "characterSize": 40,
           "color": {
             "b": 79,
             "g": 72,
@@ -265,11 +265,11 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Quit",
+            "text": "Play Again",
             "font": "assets\\Kenney Mini Square.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
-            "characterSize": 60,
+            "characterSize": 40,
             "color": "72;72;79"
           }
         },
@@ -343,9 +343,11 @@
       "actions": [
         {
           "type": {
-            "value": "Quit"
+            "value": "Scene"
           },
           "parameters": [
+            "",
+            "\"Chamber 1 (tutorial)\"",
             ""
           ]
         }

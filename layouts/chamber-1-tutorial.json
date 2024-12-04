@@ -279,22 +279,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Test_for_powerups",
-      "persistentUuid": "c4cec71d-64d5-4240-86ab-9d1f752cb71f",
-      "width": 0,
-      "x": 4,
-      "y": 269,
-      "zOrder": 73,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 0,
       "height": 750,
@@ -1416,6 +1400,56 @@
                 "=",
                 "100"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Power_ups.Bounce.times_bounced_allowed",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Door1",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Door2",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Door3",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Door4",
+                "False",
+                ""
+              ]
             }
           ]
         },
@@ -1810,6 +1844,15 @@
             },
             {
               "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Player",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -1846,15 +1889,6 @@
               },
               "parameters": [
                 "Health"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Player",
-                ""
               ]
             },
             {
@@ -1928,6 +1962,29 @@
           "actions": [
             {
               "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "650",
+                "400",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "Player",
+                "Scale",
+                "=",
+                "0.2"
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -1942,6 +1999,15 @@
               "parameters": [
                 "Level_text_filler",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "OnScreenControlsButton",
+                "OnScreenControlsButton"
               ]
             },
             {
@@ -1991,44 +2057,12 @@
             },
             {
               "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Player",
-                "650",
-                "500",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ScalableCapability::ScalableBehavior::SetValue"
-              },
-              "parameters": [
-                "Player",
-                "Scale",
-                "=",
-                "0.2"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "OnScreenControlsButton",
-                "OnScreenControlsButton"
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "random_power_up",
                 "=",
-                "RandomFloatInRange(0 ,9)"
+                "0"
               ]
             },
             {
@@ -2441,67 +2475,23 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Door",
-                    "Player",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Door2",
-                    "Player",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Door3",
-                    "Player",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Door4",
-                    "Player",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": {
                 "value": "KeyPressed"
               },
               "parameters": [
                 "",
                 "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Door",
+                "",
+                "",
+                ""
               ]
             }
           ],
@@ -2513,6 +2503,160 @@
               "parameters": [
                 "",
                 "\"Chamber 2\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Door1",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Door2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Chamber 2\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Door2",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Door3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Chamber 2\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Door3",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Door4",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Chamber 2\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Door4",
+                "True",
                 ""
               ]
             }
@@ -2561,7 +2705,7 @@
               },
               "parameters": [
                 "",
-                "0.8",
+                "1",
                 "",
                 ""
               ]
@@ -2690,17 +2834,6 @@
                 "=",
                 "\"Coins:\" + Coins"
               ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Test_for_powerups",
-                "Text",
-                "=",
-                "Bullet_speed"
-              ]
             }
           ],
           "events": [
@@ -2735,7 +2868,7 @@
                   "parameters": [
                     "upload_timer",
                     "=",
-                    "60 - trunc((TimerElapsedTime(\"bounce timer\") * Timer_Scale))"
+                    "60 - Power_ups.Bounce.bounce_timer_global"
                   ]
                 },
                 {
@@ -4915,6 +5048,62 @@
                 "power_ups_unequipped[0]",
                 "=",
                 "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Power_ups.Bounce.bounce_timer_global",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"bounce timer\"",
+                ">",
+                "0.01"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "TimerPaused"
+              },
+              "parameters": [
+                "",
+                "\"bounce timer\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Power_ups.Bounce.bounce_timer_global",
+                "+",
+                "Timer_Scale"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
               ]
             }
           ]
@@ -8947,6 +9136,17 @@
                         "obstacleTileSprite",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Bounce::Bounce::BounceOff"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "Bounce",
+                        "WallTile",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -12002,14 +12202,54 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "Bullet",
-                    "obstacleTileSprite",
-                    "",
-                    "",
+                    "power_up_activated",
+                    "=",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "Power_ups_grabbed[power_up_index]",
+                    "!=",
+                    "\"Bounce\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "obstacleTileSprite",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Bullet",
+                        "WallTile",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ],
@@ -12458,24 +12698,34 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "Evil_Bullet",
-                    "obstacleTileSprite",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "Power_ups_grabbed[power_up_index]",
-                    "!=",
-                    "\"Bounce\""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Evil_Bullet",
+                        "obstacleTileSprite",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Evil_Bullet",
+                        "WallTile",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ],

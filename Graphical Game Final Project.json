@@ -6853,6 +6853,11 @@
               "value": false
             },
             {
+              "name": "bounce_timer_global",
+              "type": "number",
+              "value": 0
+            },
+            {
               "name": "has bounce",
               "type": "boolean",
               "value": false
@@ -7231,6 +7236,26 @@
     },
     {
       "name": "Boss3",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "Door1",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "Door2",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "Door3",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "Door4",
       "type": "boolean",
       "value": false
     }
