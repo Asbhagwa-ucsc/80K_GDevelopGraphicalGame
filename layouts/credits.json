@@ -86,10 +86,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Level and character programming: Atharva Bhagwat\nLevel programming, character design and literally all the art: Jay Sells\nMiscellaneous / Moral Support: Daisy Fragoso\n\nOther peoples things used:\nPanel Sprite Button by D8H\nDungeon Generator by VictrisGames and oscuridad666\nAdvanced Projectile VictrisGames\nBoids Movement by planktonfun and D8H\nBounce (using forces) by 4ian\nResource bar (continuous) by D8H, VictrisGames, and Entropy\nFire Bullets by 4ian, Muzan7, Bouh, and VictrisGames\nArray tools by Arthuro555\nExtended Variables by Bouh and D8H\n\n\nMusic Used: WIP",
+      "string": "Level and character programming: Atharva Bhagwat\nLevel programming, character design and literally all the art: Jay Sells\nMiscellaneous / Moral Support: Daisy Fragoso\n\nOther peoples things used:\nPanel Sprite Button by D8H\nDungeon Generator by VictrisGames and oscuridad666\nAdvanced Projectile VictrisGames\nBoids Movement by planktonfun and D8H\nBounce (using forces) by 4ian\nResource bar (continuous) by D8H, VictrisGames, and Entropy\nFire Bullets by 4ian, Muzan7, Bouh, and VictrisGames\nArray tools by Arthuro555\nExtended Variables by Bouh and D8H\nObject Spawner by Victris Games\nRepeat Every X Seconds by arthuro555, D8H, and Vegetato\n\n\nMusic Used: Freesounds - blaster and damage sounds\nScott Pilgrim Vs the World Game Soundtrack\nFinal Fantasy Soundtrack\nCave Story Soundtrack\nSuper Mario Galaxy Soundtrack",
       "font": "assets\\Kenney Mini Square.ttf",
       "textAlignment": "left",
-      "characterSize": 30,
+      "characterSize": 25,
       "color": {
         "b": 255,
         "g": 255,
@@ -109,11 +109,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Level and character programming: Atharva Bhagwat\nLevel programming, character design and literally all the art: Jay Sells\nMiscellaneous / Moral Support: Daisy Fragoso\n\nOther peoples things used:\nPanel Sprite Button by D8H\nDungeon Generator by VictrisGames and oscuridad666\nAdvanced Projectile VictrisGames\nBoids Movement by planktonfun and D8H\nBounce (using forces) by 4ian\nResource bar (continuous) by D8H, VictrisGames, and Entropy\nFire Bullets by 4ian, Muzan7, Bouh, and VictrisGames\nArray tools by Arthuro555\nExtended Variables by Bouh and D8H\n\n\nMusic Used: WIP",
+        "text": "Level and character programming: Atharva Bhagwat\nLevel programming, character design and literally all the art: Jay Sells\nMiscellaneous / Moral Support: Daisy Fragoso\n\nOther peoples things used:\nPanel Sprite Button by D8H\nDungeon Generator by VictrisGames and oscuridad666\nAdvanced Projectile VictrisGames\nBoids Movement by planktonfun and D8H\nBounce (using forces) by 4ian\nResource bar (continuous) by D8H, VictrisGames, and Entropy\nFire Bullets by 4ian, Muzan7, Bouh, and VictrisGames\nArray tools by Arthuro555\nExtended Variables by Bouh and D8H\nObject Spawner by Victris Games\nRepeat Every X Seconds by arthuro555, D8H, and Vegetato\n\n\nMusic Used: Freesounds - blaster and damage sounds\nScott Pilgrim Vs the World Game Soundtrack\nFinal Fantasy Soundtrack\nCave Story Soundtrack\nSuper Mario Galaxy Soundtrack",
         "font": "assets\\Kenney Mini Square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 30,
+        "characterSize": 25,
         "color": "255;255;255"
       }
     },
@@ -347,6 +347,34 @@
           },
           "parameters": [
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "Cave Story OST - T28 Balcony.mp3",
+            "1",
+            "yes",
+            "30",
+            "1"
           ]
         }
       ]

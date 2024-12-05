@@ -1,7 +1,7 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Opening",
   "gdVersion": {
-    "build": 218,
+    "build": 219,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -69,7 +69,6 @@
   "resources": {
     "resources": [
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -78,7 +77,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -87,7 +85,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite3.png\"}",
@@ -96,7 +93,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -105,7 +101,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Copper Bar Border.png",
         "kind": "image",
         "metadata": "",
@@ -118,7 +113,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Framed Pixel Red Fill Bar.png",
         "kind": "image",
         "metadata": "",
@@ -131,7 +125,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite5.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -140,7 +133,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite6.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -149,7 +141,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite7.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -158,7 +149,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite8.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -167,7 +157,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite9.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -176,7 +165,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite10.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite10.png\"}",
@@ -185,7 +173,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite11.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -234,7 +221,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite12.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -243,7 +229,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite13.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite13.png\"}",
@@ -252,7 +237,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite14.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -261,7 +245,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite15.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -270,7 +253,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite16.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -279,7 +261,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite17.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -288,7 +269,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bomb_lol.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -297,7 +277,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite18.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -306,7 +285,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite19.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -315,7 +293,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite20.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -324,7 +301,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite21.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -333,7 +309,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite22.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -342,7 +317,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/charIdle/playerCharIdleL(1).png",
         "kind": "image",
         "metadata": "",
@@ -351,7 +325,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/charIdle/playerCharIdleL.png",
         "kind": "image",
         "metadata": "",
@@ -360,7 +333,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/charIdle/playerCharIdleR(1).png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/charIdle/playerCharIdleR(1).png\",\"extension\":\".png\"}",
@@ -369,7 +341,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/charIdle/playerCharIdleR.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/charIdle/playerCharIdleR.png\",\"extension\":\".png\"}",
@@ -378,7 +349,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/charAnim/playerCharAnimL(1).png",
         "kind": "image",
         "metadata": "",
@@ -387,7 +357,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/charAnim/playerCharAnimL(2).png",
         "kind": "image",
         "metadata": "",
@@ -396,7 +365,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/charAnim/playerCharAnimL.png",
         "kind": "image",
         "metadata": "",
@@ -405,7 +373,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/charAnim/playerCharAnimR(1).png",
         "kind": "image",
         "metadata": "",
@@ -414,7 +381,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/charAnim/playerCharAnimR(2).png",
         "kind": "image",
         "metadata": "",
@@ -423,7 +389,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/charAnim/playerCharAnimR.png",
         "kind": "image",
         "metadata": "",
@@ -432,7 +397,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchvelocityframes/patchvelocity(1).png",
         "kind": "image",
         "metadata": "",
@@ -441,7 +405,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchvelocityframes/patchvelocity(2).png",
         "kind": "image",
         "metadata": "",
@@ -450,7 +413,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchvelocityframes/patchvelocity.png",
         "kind": "image",
         "metadata": "",
@@ -459,7 +421,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchbounceframes/patchbounce(1).png",
         "kind": "image",
         "metadata": "",
@@ -468,7 +429,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchbounceframes/patchbounce(2).png",
         "kind": "image",
         "metadata": "",
@@ -477,7 +437,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchbounceframes/patchbounce.png",
         "kind": "image",
         "metadata": "",
@@ -486,7 +445,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy2frames/enemy2L(1).png",
         "kind": "image",
         "metadata": "",
@@ -495,7 +453,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy2frames/enemy2L(2).png",
         "kind": "image",
         "metadata": "",
@@ -504,7 +461,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy2frames/enemy2L.png",
         "kind": "image",
         "metadata": "",
@@ -513,7 +469,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy2frames/enemy2R(1).png",
         "kind": "image",
         "metadata": "",
@@ -522,7 +477,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy2frames/enemy2R(2).png",
         "kind": "image",
         "metadata": "",
@@ -531,7 +485,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy2frames/enemy2R.png",
         "kind": "image",
         "metadata": "",
@@ -540,7 +493,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy3frames/enemy3L(1).png",
         "kind": "image",
         "metadata": "",
@@ -549,7 +501,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy3frames/enemy3L(2).png",
         "kind": "image",
         "metadata": "",
@@ -558,7 +509,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy3frames/enemy3L.png",
         "kind": "image",
         "metadata": "",
@@ -567,7 +517,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy3frames/enemy3R(1).png",
         "kind": "image",
         "metadata": "",
@@ -576,7 +525,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy3frames/enemy3R(2).png",
         "kind": "image",
         "metadata": "",
@@ -585,7 +533,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy3frames/enemy3R.png",
         "kind": "image",
         "metadata": "",
@@ -594,7 +541,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy1frames/enemy1L(1).png",
         "kind": "image",
         "metadata": "",
@@ -603,7 +549,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy1frames/enemy1L(2).png",
         "kind": "image",
         "metadata": "",
@@ -612,7 +557,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy1frames/enemy1L.png",
         "kind": "image",
         "metadata": "",
@@ -621,7 +565,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy1frames/enemy1R(1).png",
         "kind": "image",
         "metadata": "",
@@ -630,7 +573,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy1frames/enemy1R(2).png",
         "kind": "image",
         "metadata": "",
@@ -639,7 +581,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy1frames/enemy1R.png",
         "kind": "image",
         "metadata": "",
@@ -648,7 +589,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchdashframes/patchdash(1).png",
         "kind": "image",
         "metadata": "",
@@ -657,7 +597,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchdashframes/patchdash(2).png",
         "kind": "image",
         "metadata": "",
@@ -666,7 +605,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchdashframes/patchdash.png",
         "kind": "image",
         "metadata": "",
@@ -675,7 +613,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchfreezeframes/patchfreeze1.png",
         "kind": "image",
         "metadata": "",
@@ -684,7 +621,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchfreezeframes/patchfreeze2.png",
         "kind": "image",
         "metadata": "",
@@ -693,7 +629,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchfreezeframes/patchfreeze3.png",
         "kind": "image",
         "metadata": "",
@@ -702,7 +637,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchbombframes/patchbomb(1).png",
         "kind": "image",
         "metadata": "",
@@ -711,7 +645,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchbombframes/patchbomb(2).png",
         "kind": "image",
         "metadata": "",
@@ -720,7 +653,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchbombframes/patchbomb.png",
         "kind": "image",
         "metadata": "",
@@ -729,7 +661,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/bombcountdownframes/bombexploding(1).png",
         "kind": "image",
         "metadata": "",
@@ -738,7 +669,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/bombcountdownframes/bombexploding(2).png",
         "kind": "image",
         "metadata": "",
@@ -747,7 +677,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/bombcountdownframes/bombexploding(3).png",
         "kind": "image",
         "metadata": "",
@@ -756,7 +685,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/bombcountdownframes/bombexploding.png",
         "kind": "image",
         "metadata": "",
@@ -765,7 +693,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchspeedframes/patchspeed1.png",
         "kind": "image",
         "metadata": "",
@@ -774,7 +701,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchspeedframes/patchspeed2.png",
         "kind": "image",
         "metadata": "",
@@ -783,7 +709,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchspeedframes/patchspeed3.png",
         "kind": "image",
         "metadata": "",
@@ -792,7 +717,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchdmgframes/patchdmg1.png",
         "kind": "image",
         "metadata": "",
@@ -801,7 +725,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchdmgframes/patchdmg2.png",
         "kind": "image",
         "metadata": "",
@@ -810,7 +733,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchdmgframes/patchdmg3.png",
         "kind": "image",
         "metadata": "",
@@ -819,7 +741,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchmultframes/patchmult(1).png",
         "kind": "image",
         "metadata": "",
@@ -828,7 +749,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchmultframes/patchmult(2).png",
         "kind": "image",
         "metadata": "",
@@ -837,7 +757,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchmultframes/patchmult.png",
         "kind": "image",
         "metadata": "",
@@ -846,7 +765,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchwipeframes/patchroomwipe(1).png",
         "kind": "image",
         "metadata": "",
@@ -855,7 +773,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchwipeframes/patchroomwipe(2).png",
         "kind": "image",
         "metadata": "",
@@ -864,7 +781,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchwipeframes/patchroomwipe.png",
         "kind": "image",
         "metadata": "",
@@ -873,7 +789,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy2frames/enemy2prjctl(1).png",
         "kind": "image",
         "metadata": "",
@@ -882,7 +797,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy2frames/enemy2prjctl.png",
         "kind": "image",
         "metadata": "",
@@ -891,7 +805,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/projectileframes/projectile(1).png",
         "kind": "image",
         "metadata": "",
@@ -900,7 +813,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/projectileframes/projectile.png",
         "kind": "image",
         "metadata": "",
@@ -909,7 +821,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy1frames/enemy1explode(1).png",
         "kind": "image",
         "metadata": "",
@@ -918,7 +829,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy1frames/enemy1explode(2).png",
         "kind": "image",
         "metadata": "",
@@ -927,7 +837,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/enemy1frames/enemy1explode.png",
         "kind": "image",
         "metadata": "",
@@ -936,7 +845,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/floortile.png",
         "kind": "image",
         "metadata": "",
@@ -945,7 +853,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/obstaclewalltile.png",
         "kind": "image",
         "metadata": "",
@@ -954,7 +861,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/explosionframes/bombexplosion(1).png",
         "kind": "image",
         "metadata": "",
@@ -963,7 +869,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/explosionframes/bombexplosion(2).png",
         "kind": "image",
         "metadata": "",
@@ -972,7 +877,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/explosionframes/bombexplosion.png",
         "kind": "image",
         "metadata": "",
@@ -981,7 +885,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/assets_floortile.png2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -990,7 +893,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/assets_obstaclewalltile.png2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -999,7 +901,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/assets_floortile.png2.png",
         "kind": "image",
         "metadata": "",
@@ -1026,7 +927,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/roomwalltile.png",
         "kind": "image",
         "metadata": "",
@@ -1035,7 +935,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/healthdropframes/healthdrop1.png",
         "kind": "image",
         "metadata": "",
@@ -1044,7 +943,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/healthdropframes/healthdrop2.png",
         "kind": "image",
         "metadata": "",
@@ -1053,7 +951,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/healthdropframes/healthdrop3.png",
         "kind": "image",
         "metadata": "",
@@ -1062,7 +959,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/assets_charIdle_playerCharIdleR(1).png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -1071,7 +967,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/assets_charIdle_playerCharIdleR(1)2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -1080,7 +975,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/coinframes/coin(1).png",
         "kind": "image",
         "metadata": "",
@@ -1089,7 +983,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/coinframes/coin(2).png",
         "kind": "image",
         "metadata": "",
@@ -1098,7 +991,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/coinframes/coin(3).png",
         "kind": "image",
         "metadata": "",
@@ -1107,7 +999,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/coinframes/coin(4).png",
         "kind": "image",
         "metadata": "",
@@ -1116,7 +1007,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/coinframes/coin.png",
         "kind": "image",
         "metadata": "",
@@ -1125,7 +1015,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite12.png",
         "kind": "image",
         "metadata": "",
@@ -1134,7 +1023,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchluckframes/patchluck(1).png",
         "kind": "image",
         "metadata": "",
@@ -1143,7 +1031,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchluckframes/patchluck(2).png",
         "kind": "image",
         "metadata": "",
@@ -1152,7 +1039,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/patchluckframes/patchluck.png",
         "kind": "image",
         "metadata": "",
@@ -1161,7 +1047,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Grey Button_Hovered.png",
         "kind": "image",
         "metadata": "",
@@ -1174,7 +1059,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Grey Button_Idle.png",
         "kind": "image",
         "metadata": "",
@@ -1187,7 +1071,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Grey Button_Pressed.png",
         "kind": "image",
         "metadata": "",
@@ -1200,7 +1083,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite23.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite23.png\"}",
@@ -1219,7 +1101,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite24.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -1228,7 +1109,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite25.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite25.png\"}",
@@ -1237,7 +1117,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite26.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -1246,7 +1125,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/On Screen Controls Button_Hovered.png",
         "kind": "image",
         "metadata": "",
@@ -1259,7 +1137,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/On Screen Controls Button_Idle.png",
         "kind": "image",
         "metadata": "",
@@ -1272,7 +1149,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/On Screen Controls Button_Pressed.png",
         "kind": "image",
         "metadata": "",
@@ -1296,12 +1172,89 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite27.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite27",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite28",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cave Story OST - T28 Balcony.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Cave Story OST - T28 Balcony.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Cave Story OST - T31 Last Battle.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Cave Story OST - T31 Last Battle.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Victory Sound Effect.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Victory Sound Effect.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Super Mario Galaxy game over sound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Super Mario Galaxy game over sound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Menu Screen Background Music - Royalty Free.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Menu Screen Background Music - Royalty Free.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "466866__mikee63__enhanced-blaster-2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "466866__mikee63__enhanced-blaster-2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "745185__mrechobot__hurt1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "745185__mrechobot__hurt1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],
@@ -2691,6 +2644,11 @@
       "variables": [
         {
           "name": "drops",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "randomitemchance",
           "type": "number",
           "value": 0
         }
@@ -6658,6 +6616,118 @@
         "characterSize": 20,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Enemy_Spawner",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "RepeatTimer",
+          "type": "RepeatEveryXSeconds::RepeatTimer",
+          "TimerName": "MyTimer",
+          "TimerLength": 1,
+          "Limit": -1,
+          "Counter": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite28",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 18
+                      },
+                      {
+                        "x": 51,
+                        "y": 18
+                      },
+                      {
+                        "x": 51,
+                        "y": 56
+                      },
+                      {
+                        "x": 10,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Survival_time",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "assets\\Kenney Mini Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "assets\\Kenney Mini Square.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -6757,9 +6827,6 @@
         "objectName": "floorTileSprite"
       },
       {
-        "objectName": "obstacleTileSprite"
-      },
-      {
         "objectName": "WallTile"
       },
       {
@@ -6769,10 +6836,19 @@
         "objectName": "Coin"
       },
       {
+        "objectName": "obstacleTileSprite"
+      },
+      {
         "objectName": "Luck"
       },
       {
         "objectName": "Coin_count"
+      },
+      {
+        "objectName": "Survival_time"
+      },
+      {
+        "objectName": "Enemy_Spawner"
       }
     ]
   },
@@ -7225,49 +7301,15 @@
       "value": 0
     },
     {
-      "name": "Boss1",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "Boss2",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "Boss3",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "Door1",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "Door2",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "Door3",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "Door4",
-      "type": "boolean",
-      "value": false
+      "name": "survival_time",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/chamber-1-tutorial"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/chamber-2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -7292,6 +7334,14 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/repeateveryxseconds"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/objectspawner"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/extendedvariables"

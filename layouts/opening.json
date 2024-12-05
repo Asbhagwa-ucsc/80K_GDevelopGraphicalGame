@@ -479,6 +479,34 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "Menu Screen Background Music - Royalty Free.mp3",
+            "1",
+            "yes",
+            "10",
+            "1"
+          ]
+        }
+      ]
     }
   ],
   "layers": [

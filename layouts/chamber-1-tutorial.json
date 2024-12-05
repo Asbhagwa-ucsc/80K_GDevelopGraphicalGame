@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4950840073748955,
+    "zoomFactor": 0.3325387091250821,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -30,6 +30,16 @@
     },
     {
       "name": "random_power_up",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "randomitemchance",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "enemy_spawn",
       "type": "number",
       "value": 0
     }
@@ -45,8 +55,8 @@
       "name": "Player",
       "persistentUuid": "ff61a886-d379-4c25-873b-93e9b02a541a",
       "width": 103,
-      "x": 702,
-      "y": 414,
+      "x": 630,
+      "y": 382,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -552,83 +562,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 300,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Door",
-      "persistentUuid": "9c783232-eb35-4bc7-8032-5844cc3eb65a",
-      "width": 300,
-      "x": 500,
-      "y": -450,
-      "zOrder": 75,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 90,
-      "customSize": true,
-      "depth": 0,
-      "height": 300,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Door2",
-      "persistentUuid": "48aa1a5f-2cc6-43d0-9233-711be367e9fb",
-      "width": 300,
-      "x": -950,
-      "y": 210,
-      "zOrder": 76,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 300,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Door3",
-      "persistentUuid": "1f13e13a-6d5e-4ffa-8bd5-01df4ab289ac",
-      "width": 300,
-      "x": 500,
-      "y": 900,
-      "zOrder": 77,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 270,
-      "customSize": true,
-      "depth": 0,
-      "height": 300,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Door4",
-      "persistentUuid": "d9b3b119-2bbd-4f3a-80cb-7f78bbf0fb21",
-      "width": 300,
-      "x": 1950,
-      "y": 210,
-      "zOrder": 78,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 1,
-      "height": 664,
+      "height": 721,
       "keepRatio": true,
       "layer": "",
       "name": "Level_text",
       "persistentUuid": "87838676-0bc7-4c14-931d-5799350e0678",
-      "width": 755,
-      "x": 372,
-      "y": 22,
+      "width": 824,
+      "x": 269,
+      "y": -68,
       "zOrder": 79,
       "numberProperties": [],
       "stringProperties": [],
@@ -644,8 +586,8 @@
       "name": "Level_text_filler",
       "persistentUuid": "3d4ea1eb-d173-4161-8e20-2450fcec20fa",
       "width": 615,
-      "x": 452,
-      "y": 108,
+      "x": 379,
+      "y": 87,
       "zOrder": 80,
       "numberProperties": [],
       "stringProperties": [],
@@ -660,9 +602,1433 @@
       "name": "OnScreenControlsButton",
       "persistentUuid": "06758196-e43f-469f-8e6d-2cc3041d50ff",
       "width": 0,
-      "x": 658,
-      "y": 570,
+      "x": 582,
+      "y": 523,
       "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "f9ff1640-3998-4c30-8d82-e3e653fc970c",
+      "width": 0,
+      "x": -655,
+      "y": -400,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "e0ffc460-c0f4-4760-b103-fdd917661d69",
+      "width": 0,
+      "x": -655,
+      "y": -339,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "ce968972-0df1-4e27-8073-c6368349aca0",
+      "width": 0,
+      "x": -655,
+      "y": -277,
+      "zOrder": 83,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "7b7f426a-b395-4c41-8dfe-253b75a42bfe",
+      "width": 0,
+      "x": 1840,
+      "y": -400,
+      "zOrder": 84,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "3f24b7d8-c8a0-4484-be20-5b6b52eb4f1c",
+      "width": 0,
+      "x": 1840,
+      "y": -336,
+      "zOrder": 85,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "91ece77a-1412-47f8-9a7b-529a0c2670de",
+      "width": 0,
+      "x": 1840,
+      "y": -272,
+      "zOrder": 86,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "9084dfc3-3203-4665-a07c-56dfcf0dcf31",
+      "width": 0,
+      "x": -524,
+      "y": -142,
+      "zOrder": 87,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "34c6a103-756b-4b42-be5a-93572f185da1",
+      "width": 0,
+      "x": 1766,
+      "y": -144,
+      "zOrder": 88,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "7856ea33-ade1-4976-a8f4-5d4675922cdf",
+      "width": 0,
+      "x": 1514,
+      "y": -144,
+      "zOrder": 89,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "5f3c91bf-cb39-43ec-b504-d37d724b1f10",
+      "width": 0,
+      "x": -268,
+      "y": -144,
+      "zOrder": 90,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "ef4e29e0-5383-4f7a-9426-7573133e655e",
+      "width": 0,
+      "x": -9,
+      "y": -146,
+      "zOrder": 91,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "ccf149b4-1bef-4c67-b487-6936b5c3f487",
+      "width": 0,
+      "x": 1258,
+      "y": -144,
+      "zOrder": 92,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "74f02152-ed3e-44c2-85e3-63d3480c4f92",
+      "width": 0,
+      "x": 1007,
+      "y": -144,
+      "zOrder": 93,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "d049f927-8ca6-488c-8a3e-6d758394df5e",
+      "width": 0,
+      "x": 750,
+      "y": -146,
+      "zOrder": 94,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "9a60cc09-8e92-407b-9372-2133c092e5db",
+      "width": 0,
+      "x": 489,
+      "y": -144,
+      "zOrder": 95,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "91a60d97-5802-4364-bb6e-f18c15d89b3c",
+      "width": 0,
+      "x": 240,
+      "y": -144,
+      "zOrder": 96,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "0d4dd14d-818d-4fa4-ad01-7e339f54c235",
+      "width": 0,
+      "x": -398,
+      "y": -11,
+      "zOrder": 97,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "7027a294-2a60-48e2-96b7-fc001dfee949",
+      "width": 0,
+      "x": -401,
+      "y": 53,
+      "zOrder": 98,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "8543cb5b-d3e8-4328-9cc5-694880c1bfe0",
+      "width": 0,
+      "x": -401,
+      "y": 115,
+      "zOrder": 99,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "af04b44b-4046-45e4-8ddc-940b6731f1c8",
+      "width": 0,
+      "x": -403,
+      "y": 179,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "0b1e8908-d63c-4799-8a23-9bce34178a6d",
+      "width": 0,
+      "x": -403,
+      "y": 243,
+      "zOrder": 101,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "87b03110-0759-4eaa-a049-dcd49c01f4a1",
+      "width": 0,
+      "x": -401,
+      "y": 307,
+      "zOrder": 102,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "a6f077ad-c528-468b-814d-ddfcaef21de7",
+      "width": 0,
+      "x": -400,
+      "y": 371,
+      "zOrder": 103,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "7f45b86e-dfac-424e-bc24-d019be96a920",
+      "width": 0,
+      "x": -401,
+      "y": 430,
+      "zOrder": 104,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "f8889c39-4a42-4eb4-816d-823914a74b13",
+      "width": 0,
+      "x": -400,
+      "y": 493,
+      "zOrder": 105,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "6c1402bf-220f-4ede-a595-8b060e4c2733",
+      "width": 0,
+      "x": -400,
+      "y": 558,
+      "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "3c763d76-1333-42d5-bfb1-e4c69565e399",
+      "width": 0,
+      "x": -653,
+      "y": 1009,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "b6d75b88-f0e0-41e7-a02f-8a58b77fc00a",
+      "width": 0,
+      "x": -656,
+      "y": 945,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "13027085-6a94-4783-98b2-fa1795db0921",
+      "width": 0,
+      "x": -658,
+      "y": 880,
+      "zOrder": 109,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "6bc0085c-b200-4ebe-bf9d-53bf14e1515e",
+      "width": 0,
+      "x": -530,
+      "y": 752,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "2b8ba118-317f-41d9-ac59-dbdeabe71f88",
+      "width": 0,
+      "x": -269,
+      "y": 747,
+      "zOrder": 111,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "3de4437f-396a-4f73-8bd8-bb9d9fbfa285",
+      "width": 0,
+      "x": -17,
+      "y": 754,
+      "zOrder": 112,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "0c4f87d1-0ccc-4918-9bae-c9f406af6e89",
+      "width": 0,
+      "x": 234,
+      "y": 754,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "03d45f3b-8011-4ec8-9426-5eb98aaefd46",
+      "width": 0,
+      "x": 492,
+      "y": 752,
+      "zOrder": 114,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "72dfff22-a012-4759-98bd-da49bdfe1a37",
+      "width": 0,
+      "x": 749,
+      "y": 749,
+      "zOrder": 115,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "4fb0da8a-6632-4adb-9801-db270ebf0eaf",
+      "width": 0,
+      "x": 1005,
+      "y": 752,
+      "zOrder": 116,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "ccf40c68-bcb1-4da3-b032-875e4745badc",
+      "width": 0,
+      "x": 1268,
+      "y": 754,
+      "zOrder": 117,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "11004e20-85f3-4de5-ae31-e43faefe60a1",
+      "width": 0,
+      "x": 1520,
+      "y": 750,
+      "zOrder": 118,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "a82cd3dc-45d2-47bf-92e8-d57679469915",
+      "width": 0,
+      "x": 1777,
+      "y": 745,
+      "zOrder": 119,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "47eae2b9-00ff-4d9c-8583-2da0bddfde0b",
+      "width": 0,
+      "x": 1843,
+      "y": 883,
+      "zOrder": 120,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "600f2b69-ba7c-4a4b-b746-e826a2acd6a1",
+      "width": 0,
+      "x": 1843,
+      "y": 945,
+      "zOrder": 121,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "d557dd0d-b85c-48be-a557-83efbbcf44bf",
+      "width": 0,
+      "x": 1846,
+      "y": 1009,
+      "zOrder": 122,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "0aa8c572-b5dc-4051-9a29-4ffd232fac95",
+      "width": 0,
+      "x": 1648,
+      "y": -17,
+      "zOrder": 123,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "89aa6e96-26c0-4f48-98b9-4373832d17bb",
+      "width": 0,
+      "x": 1648,
+      "y": 47,
+      "zOrder": 124,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "0c45eb91-55cc-4a30-a10f-79ad727a7145",
+      "width": 0,
+      "x": 1649,
+      "y": 113,
+      "zOrder": 125,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "fcf00bee-e0af-4eda-a665-f9c5a922789b",
+      "width": 0,
+      "x": 1651,
+      "y": 176,
+      "zOrder": 126,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "3daf4a34-8a8b-4cf0-91e4-88a5bb1e87e2",
+      "width": 0,
+      "x": 1651,
+      "y": 240,
+      "zOrder": 127,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "7459a597-0af3-4ec1-ab5c-a82d100958d6",
+      "width": 0,
+      "x": 1651,
+      "y": 304,
+      "zOrder": 128,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "3dfdc056-aca7-4c7c-9162-4821e8c83a13",
+      "width": 0,
+      "x": 1651,
+      "y": 368,
+      "zOrder": 129,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "2195904c-44ab-416f-9570-f7851db08750",
+      "width": 0,
+      "x": 1651,
+      "y": 429,
+      "zOrder": 130,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "9700ae40-99eb-4be1-8fb2-4cc2e78336b8",
+      "width": 0,
+      "x": 1648,
+      "y": 493,
+      "zOrder": 131,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "980db93b-7ee3-4f78-9e00-f839843c6d02",
+      "width": 0,
+      "x": 1651,
+      "y": 558,
+      "zOrder": 132,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "f735cad4-3607-4d7d-a773-be64d62712c5",
+      "width": 0,
+      "x": 362,
+      "y": 52,
+      "zOrder": 133,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "dcfbe673-37b9-4b47-b1b7-c3b843e80408",
+      "width": 0,
+      "x": 426,
+      "y": 50,
+      "zOrder": 134,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "e920b73d-1a61-4657-b01a-952147c093d9",
+      "width": 0,
+      "x": 491,
+      "y": 50,
+      "zOrder": 135,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "0ac0da04-0e58-4eae-bd96-6bee77c71927",
+      "width": 0,
+      "x": 554,
+      "y": 52,
+      "zOrder": 136,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "429a4531-6a50-463d-b4df-539bbcb4800a",
+      "width": 0,
+      "x": 621,
+      "y": 52,
+      "zOrder": 137,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "2a28001d-882a-4d7a-b8e7-ee9a7af1958b",
+      "width": 0,
+      "x": 685,
+      "y": 50,
+      "zOrder": 138,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "934a7950-000d-43c1-950e-3b975ae0a8b0",
+      "width": 0,
+      "x": 751,
+      "y": 50,
+      "zOrder": 139,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "c9eb7b48-7f3c-4bb8-84f8-d322c8cf4e36",
+      "width": 0,
+      "x": 815,
+      "y": 50,
+      "zOrder": 140,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "0da2282a-157d-44fa-b094-af18a0201562",
+      "width": 0,
+      "x": 879,
+      "y": 50,
+      "zOrder": 141,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "7c8a6d05-4bd1-4443-b4db-977342f1d4b5",
+      "width": 0,
+      "x": 944,
+      "y": 50,
+      "zOrder": 142,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "d9774dce-8b34-44f7-8943-4835ebef56e5",
+      "width": 0,
+      "x": 367,
+      "y": 498,
+      "zOrder": 143,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "637bf5f5-afe5-4dab-8330-ccd375f2099c",
+      "width": 0,
+      "x": 433,
+      "y": 498,
+      "zOrder": 144,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "80361b8f-9e02-4f6b-aba0-71a8938a202a",
+      "width": 0,
+      "x": 495,
+      "y": 496,
+      "zOrder": 145,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "dd72d895-21fe-49b2-b500-173f28b60dc7",
+      "width": 0,
+      "x": 559,
+      "y": 498,
+      "zOrder": 146,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "9a69275d-7e93-4d4f-aefa-5741f5f02411",
+      "width": 0,
+      "x": 623,
+      "y": 496,
+      "zOrder": 147,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "d63fe65f-caa6-46b4-9d63-e3647fb0a670",
+      "width": 0,
+      "x": 687,
+      "y": 498,
+      "zOrder": 148,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "c6691c46-aa88-4553-b8c9-88939d7ed6e2",
+      "width": 0,
+      "x": 749,
+      "y": 498,
+      "zOrder": 149,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "07513d7f-114a-490e-95c0-6519af04d489",
+      "width": 0,
+      "x": 815,
+      "y": 496,
+      "zOrder": 150,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "ecc8ad8a-b086-4aab-bbd8-759b412dfc15",
+      "width": 0,
+      "x": 879,
+      "y": 498,
+      "zOrder": 151,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obstacleTileSprite",
+      "persistentUuid": "32f41931-7c90-4744-87e9-ed9d4de628ff",
+      "width": 0,
+      "x": 939,
+      "y": 498,
+      "zOrder": 152,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Survival_time",
+      "persistentUuid": "ce358a8d-097e-4e1e-9b1a-f64ac978845b",
+      "width": 0,
+      "x": 5,
+      "y": 235,
+      "zOrder": 153,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Enemy Spawn Layer",
+      "name": "Enemy_Spawner",
+      "persistentUuid": "1fd210c1-85ee-4fd2-a8a0-40501f88b71c",
+      "width": 0,
+      "x": -770,
+      "y": -338,
+      "zOrder": 154,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Enemy Spawn Layer",
+      "name": "Enemy_Spawner",
+      "persistentUuid": "c89752b9-4949-4b07-9d17-a1c54c378a96",
+      "width": 0,
+      "x": -787,
+      "y": 955,
+      "zOrder": 155,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Enemy Spawn Layer",
+      "name": "Enemy_Spawner",
+      "persistentUuid": "82e01561-66f2-4c72-80f6-d4e23fb20a68",
+      "width": 0,
+      "x": 1971,
+      "y": -335,
+      "zOrder": 156,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Enemy Spawn Layer",
+      "name": "Enemy_Spawner",
+      "persistentUuid": "d51d0617-c0fe-49af-8a0f-67e755aca49e",
+      "width": 0,
+      "x": 1965,
+      "y": 946,
+      "zOrder": 157,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Enemy Spawn Layer",
+      "name": "Enemy_Spawner",
+      "persistentUuid": "3ee6da22-2a6b-4dae-be33-d5928e3b11e2",
+      "width": 0,
+      "x": 588,
+      "y": -329,
+      "zOrder": 158,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Enemy Spawn Layer",
+      "name": "Enemy_Spawner",
+      "persistentUuid": "6719ba65-33c7-42bb-9c97-9b4c88388ed1",
+      "width": 0,
+      "x": 531,
+      "y": 965,
+      "zOrder": 159,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Enemy Spawn Layer",
+      "name": "Enemy_Spawner",
+      "persistentUuid": "25f991fb-9eeb-4ba5-ac37-a14160e93cd0",
+      "width": 0,
+      "x": 1267,
+      "y": -314,
+      "zOrder": 160,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Enemy Spawn Layer",
+      "name": "Enemy_Spawner",
+      "persistentUuid": "e636fb7d-0072-4ccf-8e56-95df800a9471",
+      "width": 0,
+      "x": 1219,
+      "y": 1016,
+      "zOrder": 161,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Enemy Spawn Layer",
+      "name": "Enemy_Spawner",
+      "persistentUuid": "9631c461-c5ba-4386-9c7f-14764b6e38d2",
+      "width": 0,
+      "x": -98,
+      "y": 1001,
+      "zOrder": 162,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Enemy Spawn Layer",
+      "name": "Enemy_Spawner",
+      "persistentUuid": "8645bb4f-e25c-42b9-aa0a-061e2285fb37",
+      "width": 0,
+      "x": -86,
+      "y": -329,
+      "zOrder": 163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Enemy Spawn Layer",
+      "name": "Enemy_Spawner",
+      "persistentUuid": "c2af13fa-a2cb-44ca-b3eb-fa45971e443d",
+      "width": 0,
+      "x": -519,
+      "y": 276,
+      "zOrder": 164,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Enemy Spawn Layer",
+      "name": "Enemy_Spawner",
+      "persistentUuid": "c36328f7-fd29-4c5d-b648-38b895abc559",
+      "width": 0,
+      "x": 1794,
+      "y": 264,
+      "zOrder": 165,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Enemy Spawn Layer",
+      "name": "Enemy_Spawner",
+      "persistentUuid": "ef27520b-1194-4a83-bf70-ad174f355b7c",
+      "width": 0,
+      "x": 1977,
+      "y": -265,
+      "zOrder": 166,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Enemy Spawn Layer",
+      "name": "Enemy_Spawner",
+      "persistentUuid": "452965e9-96ed-4eb2-bc2f-48fb4981d28e",
+      "width": 0,
+      "x": -768,
+      "y": -265,
+      "zOrder": 167,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Enemy Spawn Layer",
+      "name": "Enemy_Spawner",
+      "persistentUuid": "2d0ef0f2-473a-4dcb-9207-f83ef4a3da54",
+      "width": 0,
+      "x": -783,
+      "y": 874,
+      "zOrder": 168,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Enemy Spawn Layer",
+      "name": "Enemy_Spawner",
+      "persistentUuid": "ec7171a3-86d5-471e-9d35-a913b43d1950",
+      "width": 0,
+      "x": 1971,
+      "y": 877,
+      "zOrder": 169,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1027,10 +2393,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Alright, here's the rundown:\nWASD to move\nLeft click to shoot\nRight Click to Dash\nR to reload\nQ to activate patches (power ups)\nT to cycle patches\nE to interact (doors, hatches, and shops)\n\nHere's where it gets complex:\nEvery \"patch\" (power up) you pick up will not start off at in its strongest form, and needs to be uploaded in order to enter its best form. You can either wait out the timer or overclock (\"f\") to speed it up. Overclocking costs health though. Alright, that's it. Good luck (you're gonna need it)\n\nOh, one more thing: Those big black boxes in the corners of the room are doors. Interact with them to move through the game. Beat bosses to move further into the \"source code.\" Finally, enemies respawn when you re-enter rooms. If you think that's too hard, get good.",
+      "string": "Alright, here's the rundown:\nWASD to move\nLeft click to shoot\nRight Click to Dash\nR to reload\nQ to activate patches (power ups)\nT to cycle patches\nE to interact (doors, hatches, and shops)\n\nHere's where it gets complex:\nEvery \"patch\" (power up) you pick up will not start off at in its strongest form, and needs to be uploaded in order to enter its best form. You can either wait out the timer or overclock (\"f\") to speed it up. Overclocking costs health though. Alright, that's it. Good luck (you're gonna need it)\n\nYour objective: Survive",
       "font": "assets\\Kenney Mini Square.ttf",
       "textAlignment": "left",
-      "characterSize": 20,
+      "characterSize": 25,
       "color": {
         "b": 0,
         "g": 0,
@@ -1050,11 +2416,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Alright, here's the rundown:\nWASD to move\nLeft click to shoot\nRight Click to Dash\nR to reload\nQ to activate patches (power ups)\nT to cycle patches\nE to interact (doors, hatches, and shops)\n\nHere's where it gets complex:\nEvery \"patch\" (power up) you pick up will not start off at in its strongest form, and needs to be uploaded in order to enter its best form. You can either wait out the timer or overclock (\"f\") to speed it up. Overclocking costs health though. Alright, that's it. Good luck (you're gonna need it)\n\nOh, one more thing: Those big black boxes in the corners of the room are doors. Interact with them to move through the game. Beat bosses to move further into the \"source code.\" Finally, enemies respawn when you re-enter rooms. If you think that's too hard, get good.",
+        "text": "Alright, here's the rundown:\nWASD to move\nLeft click to shoot\nRight Click to Dash\nR to reload\nQ to activate patches (power ups)\nT to cycle patches\nE to interact (doors, hatches, and shops)\n\nHere's where it gets complex:\nEvery \"patch\" (power up) you pick up will not start off at in its strongest form, and needs to be uploaded in order to enter its best form. You can either wait out the timer or overclock (\"f\") to speed it up. Overclocking costs health though. Alright, that's it. Good luck (you're gonna need it)\n\nYour objective: Survive",
         "font": "assets\\Kenney Mini Square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 20,
+        "characterSize": 25,
         "color": "0;0;0"
       }
     },
@@ -1413,263 +2779,12 @@
             },
             {
               "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Door1",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Door2",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Door3",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Door4",
-                "False",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "Boss1",
-                "=",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "Boss1",
-                "=",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "Boss1",
-                "=",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "Enemy_Difficulty",
                 "=",
                 "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Level_text_filler",
-                "Text",
-                "=",
-                "\"Alright, here's the rundown:\nWASD to move\nLeft click to shoot\nRight Click to Dash\nR to reload\nQ to activate patches (power ups)\nT to cycle patches\nE to interact (doors, hatches, and shops)\n\nHere's where it gets complex:\nEvery patch (power up) you pick up will not start off at in its strongest form, and needs to be uploaded in order to enter its best form. You can either wait out the timer or overclock (f) to speed it up. Overclocking costs health though. Alright, that's it. Good luck (you're gonna need it)\n\nOh, one more thing: Those big black boxes in the corners of the room are doors. Interact with them to move through the game. Beat bosses to move further into the source code. Finally, enemies respawn when you re-enter rooms. If you think that's too hard, get good.\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "Boss1",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "Boss1",
-                "=",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "Boss1",
-                "=",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Enemy_Difficulty",
-                "=",
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Level_text_filler",
-                "Text",
-                "=",
-                "\"Nice job, but it only gets harder from here\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "Boss1",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "Boss1",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "Boss1",
-                "=",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Enemy_Difficulty",
-                "=",
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Level_text_filler",
-                "Text",
-                "=",
-                "\"All right, let's do this one last time.\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "Boss1",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "Boss1",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "Boss1",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Endgame\"",
-                ""
               ]
             }
           ]
@@ -1893,6 +3008,14 @@
             },
             {
               "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Survival_time"
+              ]
+            },
+            {
+              "type": {
                 "value": "CentreCamera"
               },
               "parameters": [
@@ -2057,12 +3180,21 @@
             },
             {
               "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Survival_time",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "random_power_up",
                 "=",
-                "0"
+                "RandomFloatInRange(0, 9)"
               ]
             },
             {
@@ -2467,197 +3599,153 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "e"
-              ]
             },
             {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "Door",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Chamber 2\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Door1",
-                "True",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "e"
-              ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "Door2",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Chamber 2\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Door2",
-                "True",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "e"
-              ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "Door3",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Chamber 2\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Door3",
-                "True",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "e"
-              ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "Door4",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Chamber 2\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Door4",
-                "True",
-                ""
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Enemy_Spawner",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "Player"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "enemy_spawn",
+                    "=",
+                    "RandomInRange(1, 3)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "enemy_spawn",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Shooter",
+                        "Enemy_Spawner.PointX(\"point_x\")",
+                        "Enemy_Spawner.PointY(\"point_y\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Shooter",
+                        "Scale",
+                        "=",
+                        "0.2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "enemy_spawn",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Slapper",
+                        "Enemy_Spawner.PointX(\"point_x\")",
+                        "Enemy_Spawner.PointY(\"point_y\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Slapper",
+                        "Scale",
+                        "=",
+                        "0.2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "enemy_spawn",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Sploder",
+                        "Enemy_Spawner.PointX(\"point_x\")",
+                        "Enemy_Spawner.PointY(\"point_y\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Sploder",
+                        "Scale",
+                        "=",
+                        "0.2"
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
@@ -2834,6 +3922,27 @@
                 "=",
                 "\"Coins:\" + Coins"
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Survival_time",
+                "Text",
+                "=",
+                "\"Time to Survive: \" + ToString(trunc(survival_time))"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "survival_time",
+                "=",
+                "600 - TimerElapsedTime(\"Survival_time\")"
+              ]
             }
           ],
           "events": [
@@ -2868,7 +3977,7 @@
                   "parameters": [
                     "upload_timer",
                     "=",
-                    "60 - Power_ups.Bounce.bounce_timer_global"
+                    "60 - trunc((TimerElapsedTime(\"bounce timer\") * Timer_Scale))"
                   ]
                 },
                 {
@@ -4721,6 +5830,12 @@
                 "",
                 "\"Left\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -4738,6 +5853,19 @@
                 "CursorY(\"\", 0)",
                 "Bullet_speed",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "466866__mikee63__enhanced-blaster-2.wav",
+                "10",
+                "",
+                "10",
+                "1"
               ]
             }
           ]
@@ -5058,52 +6186,6 @@
                 "Power_ups.Bounce.bounce_timer_global",
                 "=",
                 "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"bounce timer\"",
-                ">",
-                "0.01"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "TimerPaused"
-              },
-              "parameters": [
-                "",
-                "\"bounce timer\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Power_ups.Bounce.bounce_timer_global",
-                "+",
-                "Timer_Scale"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1"
               ]
             }
           ]
@@ -12186,7 +13268,85 @@
               "parameters": [
                 "Power_ups.Luck.drop_rate",
                 "=",
-                "5 - Power_ups.Luck.luck_multiplier"
+                "6 - Power_ups.Luck.luck_multiplier"
+              ]
+            },
+            {
+              "type": {
+                "value": "BoidsMovement::BoidsMovement::AvoidObject"
+              },
+              "parameters": [
+                "Slapper",
+                "BoidsMovement",
+                "Slapper",
+                "50",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BoidsMovement::BoidsMovement::AvoidObject"
+              },
+              "parameters": [
+                "Slapper",
+                "BoidsMovement",
+                "Sploder",
+                "50",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BoidsMovement::BoidsMovement::AvoidObject"
+              },
+              "parameters": [
+                "Sploder",
+                "BoidsMovement",
+                "Slapper",
+                "50",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BoidsMovement::BoidsMovement::AvoidObject"
+              },
+              "parameters": [
+                "Slapper",
+                "BoidsMovement",
+                "obstacleTileSprite",
+                "50",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BoidsMovement::BoidsMovement::AvoidObject"
+              },
+              "parameters": [
+                "Sploder",
+                "BoidsMovement",
+                "Sploder",
+                "50",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BoidsMovement::BoidsMovement::AvoidObject"
+              },
+              "parameters": [
+                "Sploder",
+                "BoidsMovement",
+                "Slapper",
+                "50",
+                "50",
+                ""
               ]
             }
           ]
@@ -12853,6 +14013,19 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "745185__mrechobot__hurt1.wav",
+                "9",
+                "",
+                "30",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "Wait"
@@ -13577,6 +14750,337 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Shooter",
+                    "drops",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "randomitemchance",
+                    "=",
+                    "RandomInRange(0, 9)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Bounce\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Bounce",
+                        "Shooter.PointX(\"shooterx\")",
+                        "Shooter.PointY(\"shootery\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Bullet Speed\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Fast_shoot",
+                        "Shooter.PointX(\"shooterx\")",
+                        "Shooter.PointY(\"shootery\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Dash\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Dash",
+                        "Shooter.PointX(\"shooterx\")",
+                        "Shooter.PointY(\"shootery\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Freeze Time\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Freeze_Time",
+                        "Shooter.PointX(\"shooterx\")",
+                        "Shooter.PointY(\"shootery\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Bomb\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "bomb",
+                        "Shooter.PointX(\"shooterx\")",
+                        "Shooter.PointY(\"shootery\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"XLR8\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "xlr8",
+                        "Shooter.PointX(\"shooterx\")",
+                        "Shooter.PointY(\"shootery\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Multishot\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Multishot",
+                        "Shooter.PointX(\"shooterx\")",
+                        "Shooter.PointY(\"shootery\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Bullet Damage\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Bullet_Damage",
+                        "Shooter.PointX(\"shooterx\")",
+                        "Shooter.PointY(\"shootery\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"The Nuclear Option\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "The_Nuclear_Option",
+                        "Shooter.PointX(\"shooterx\")",
+                        "Shooter.PointY(\"shootery\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Luck\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Luck",
+                        "Shooter.PointX(\"shooterx\")",
+                        "Shooter.PointY(\"shootery\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Luck",
+                        "Scale",
+                        "=",
+                        "0.2"
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -13699,6 +15203,337 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Slapper",
+                    "drops",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "randomitemchance",
+                    "=",
+                    "RandomInRange(0, 9)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Bounce\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Bounce",
+                        "Slapper.PointX(\"slapperx\")",
+                        "Slapper.PointY(\"slappery\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Bullet Speed\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Fast_shoot",
+                        "Slapper.PointX(\"slapperx\")",
+                        "Slapper.PointY(\"slappery\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Dash\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Dash",
+                        "Slapper.PointX(\"slapperx\")",
+                        "Slapper.PointY(\"slappery\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Freeze Time\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Freeze_Time",
+                        "Slapper.PointX(\"slapperx\")",
+                        "Slapper.PointY(\"slappery\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Bomb\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "bomb",
+                        "Slapper.PointX(\"slapperx\")",
+                        "Slapper.PointY(\"slappery\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"XLR8\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "xlr8",
+                        "Slapper.PointX(\"slapperx\")",
+                        "Slapper.PointY(\"slappery\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Multishot\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Multishot",
+                        "Slapper.PointX(\"slapperx\")",
+                        "Slapper.PointY(\"slappery\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Bullet Damage\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Bullet_Damage",
+                        "Slapper.PointX(\"slapperx\")",
+                        "Slapper.PointY(\"slappery\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"The Nuclear Option\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "The_Nuclear_Option",
+                        "Slapper.PointX(\"slapperx\")",
+                        "Slapper.PointY(\"slappery\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Luck\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Luck",
+                        "Slapper.PointX(\"slapperx\")",
+                        "Slapper.PointY(\"slappery\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Luck",
+                        "Scale",
+                        "=",
+                        "0.2"
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -13818,6 +15653,337 @@
                     "Scale",
                     "=",
                     "0.2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Sploder",
+                    "drops",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "randomitemchance",
+                    "=",
+                    "RandomInRange(0, 9)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Bounce\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Bounce",
+                        "Sploder.PointX(\"sploder_x\")",
+                        "Sploder.PointY(\"sploder_y\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Bullet Speed\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Fast_shoot",
+                        "Sploder.PointX(\"sploder_x\")",
+                        "Sploder.PointY(\"sploder_y\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Dash\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Dash",
+                        "Sploder.PointX(\"sploder_x\")",
+                        "Sploder.PointY(\"sploder_y\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Freeze Time\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Freeze_Time",
+                        "Sploder.PointX(\"sploder_x\")",
+                        "Sploder.PointY(\"sploder_y\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Bomb\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "bomb",
+                        "Sploder.PointX(\"sploder_x\")",
+                        "Sploder.PointY(\"sploder_y\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"XLR8\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "xlr8",
+                        "Sploder.PointX(\"sploder_x\")",
+                        "Sploder.PointY(\"sploder_y\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Multishot\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Multishot",
+                        "Sploder.PointX(\"sploder_x\")",
+                        "Sploder.PointY(\"sploder_y\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Bullet Damage\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Bullet_Damage",
+                        "Sploder.PointX(\"sploder_x\")",
+                        "Sploder.PointY(\"sploder_y\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"The Nuclear Option\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "The_Nuclear_Option",
+                        "Sploder.PointX(\"sploder_x\")",
+                        "Sploder.PointY(\"sploder_y\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "power_ups_unequipped[randomitemchance]",
+                        "=",
+                        "\"Luck\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Luck",
+                        "Sploder.PointX(\"sploder_x\")",
+                        "Sploder.PointY(\"sploder_y\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Luck",
+                        "Scale",
+                        "=",
+                        "0.2"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -13965,6 +16131,266 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "RepeatEveryXSeconds::Repeat"
+              },
+              "parameters": [
+                "",
+                "\"Survival_time\"",
+                "60",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Enemy_Spawner",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "Player"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "enemy_spawn",
+                    "=",
+                    "RandomInRange(1, 3)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "enemy_spawn",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Shooter",
+                        "Enemy_Spawner.PointX(\"point_x\")",
+                        "Enemy_Spawner.PointY(\"point_y\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Shooter",
+                        "Scale",
+                        "=",
+                        "0.2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "enemy_spawn",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Slapper",
+                        "Enemy_Spawner.PointX(\"point_x\")",
+                        "Enemy_Spawner.PointY(\"point_y\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Slapper",
+                        "Scale",
+                        "=",
+                        "0.2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "enemy_spawn",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Sploder",
+                        "Enemy_Spawner.PointX(\"point_x\")",
+                        "Enemy_Spawner.PointY(\"point_y\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Sploder",
+                        "Scale",
+                        "=",
+                        "0.2"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "RepeatEveryXSeconds::Repeat"
+              },
+              "parameters": [
+                "",
+                "\"Survival_timer\"",
+                "180",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Enemy_Difficulty",
+                "<=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Enemy_Difficulty",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "survival_time",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Endgame\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Rox 300 - Scott Pilgrim vs. The World The Game.mp3",
+                "5",
+                "yes",
+                "5",
+                "1"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -13997,6 +16423,39 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Enemy Spawn Layer",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",

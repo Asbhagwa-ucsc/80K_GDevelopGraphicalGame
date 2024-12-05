@@ -352,6 +352,45 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Credits",
+            "Text",
+            "=",
+            "\"You? Superrr dead.\n\n\nScore: \" + ToString((Coins * 10) + (Player.Health::Health() * 5)) "
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "Super Mario Galaxy game over sound.mp3",
+            "4",
+            "",
+            "20",
+            "1"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
